@@ -1,4 +1,4 @@
-import "../Stylesheet/style.css";
+import "../../../Stylesheet/style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,

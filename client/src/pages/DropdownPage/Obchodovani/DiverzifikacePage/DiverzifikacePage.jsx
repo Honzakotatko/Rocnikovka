@@ -1,4 +1,4 @@
-import "../Stylesheet/style.css";
+import "../../../Stylesheet/style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
@@ -53,9 +53,6 @@ export default function MainPage() {
               </Link>
               <Link to="/psychologie">
               <p className="dropdownChild">Psychologie</p>
-              </Link>
-              <Link to="/strategie0">
-              <p className="dropdownChild">Strategie</p>
               </Link>
             </div>
           </div>
