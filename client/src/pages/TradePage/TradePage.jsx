@@ -13,11 +13,7 @@ export default function MainPage() {
       <div id="header_img">
         <div className="header">
           <div>
-            <img
-              src="./res/img/stahování-removebg-preview.ico"
-              alt=""
-              id="logo"
-            />
+          <div id="logo"></div>
           </div>
         </div>
       </div>
@@ -41,9 +37,6 @@ export default function MainPage() {
               </Link>
               <Link to="/rizika0">
               <p className="dropdownChild">Rizika</p>
-              </Link>
-              <Link to="/vzdelavani">
-              <p className="dropdownChild">Vzdělávání</p>
               </Link>
               <Link to="/analyza">
               <p className="dropdownChild">Analýza</p>

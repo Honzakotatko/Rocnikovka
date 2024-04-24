@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
 
 /* Style the top navigation bar */
 .topnav {
-  background-color: #5f5f5f; /* Šedá barva */
+  background-color: #74777A; /* Šedá barva */
   height: 4rem;
   display: flex;
   flex-direction: row;
@@ -48,7 +49,7 @@ body {
   }
 
   .dropdown {
-    left: 12rem !important;
+    left: 11.5rem !important;
     top: 0 !important;
   }
 }
@@ -57,7 +58,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 4rem;
+  height: 3.9rem;
 }
 
 /* Style the topnav links */
@@ -70,6 +71,16 @@ body {
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
+.leftcolumnVysvetlivky {   
+  float: left;
+  width: 75%;
+}
+
+.leftcolumnClanky {   
+  float: left;
+  width: 100%;
+}
+
 .leftcolumn {   
   float: left;
   width: 75%;
@@ -77,7 +88,7 @@ body {
 
 /* Right column */
 .rightcolumn {
-  float: left;
+  float: right;
   width: 25%;
   padding-left: 20px;
 }
@@ -87,7 +98,7 @@ body {
   font-size: 16px; /* Výchozí velikost textu */
   padding: 20px; /* Přidáme polštáře kolem textu pro lepší čitelnost */
   box-sizing: border-box; /* Zahrnout padding do celkové šířky elementu */
-  background-color: #87b140; /* Zachovat barvu pozadí */
+  background-color: #CCCDCF; /* Zachovat barvu pozadí */
   min-height: 200px; /* Minimální výška .fakeimg, aby se zvětšovala podle obsahu */
   display: flex; /* Použijeme flexbox pro dynamickou výšku */
   align-items: center; /* Zarovnání obsahu vertikálně */
@@ -102,12 +113,18 @@ body {
 
 /* Add a card effect for articles */
 .card {
-  background-color: #5f5f5f;
+  background-color: #74777A;
   color: white;
   padding: 20px;
   margin-top: 20px;
 }
 
+.cardVysvetlivky {
+  background-color: #5f5f5f;
+  color: white;
+  padding: 35px;
+  margin-top: 20px;
+}
 /* Clear floats after the columns */
 .row::after {
   content: "";
@@ -119,7 +136,7 @@ body {
   user-select: none;
   padding: 5px;
   text-align: center;
-  background: #5f5f5f; /* Světle šedá barva */
+  background: #9CB9F2; /* Světle šedá barva */
   margin-top: 20px;
   border: none;
 }
@@ -139,7 +156,7 @@ body {
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
+  .leftcolumn, .rightcolumn, .leftcolumnClanky, .leftcolumnVysvetlivky {   
       width: 100%;
       padding: 0;
   }

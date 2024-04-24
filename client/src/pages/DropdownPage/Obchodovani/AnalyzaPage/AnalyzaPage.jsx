@@ -13,11 +13,7 @@ export default function MainPage() {
       <div id="header_img">
         <div className="header">
           <div>
-            <img
-              src="./res/img/stahování-removebg-preview.ico"
-              alt=""
-              id="logo"
-            />
+          <div id="logo"></div>
           </div>
         </div>
       </div>
@@ -33,29 +29,26 @@ export default function MainPage() {
               <p className="navP">Obchodování</p>
             </Link>
             <div className="dropdown">
-            <Link to="/technologie">
-              <p className="dropdownChild">Technologie</p>
+              <Link to="/technologie">
+                <p className="dropdownChild">Technologie</p>
               </Link>
               <Link to="/diverzifikace0">
-              <p className="dropdownChild">Diverzifikace</p>
+                <p className="dropdownChild">Diverzifikace</p>
               </Link>
               <Link to="/rizika0">
-              <p className="dropdownChild">Rizika</p>
-              </Link>
-              <Link to="/vzdelavani">
-              <p className="dropdownChild">Vzdělávání</p>
+                <p className="dropdownChild">Rizika</p>
               </Link>
               <Link to="/analyza">
-              <p className="dropdownChild">Analýza</p>
+                <p className="dropdownChild">Analýza</p>
               </Link>
               <Link to="/nacasovani">
-              <p className="dropdownChild">Načasování</p>
+                <p className="dropdownChild">Načasování</p>
               </Link>
               <Link to="/psychologie">
-              <p className="dropdownChild">Psychologie</p>
+                <p className="dropdownChild">Psychologie</p>
               </Link>
               <Link to="/strategie0">
-              <p className="dropdownChild">Strategie</p>
+                <p className="dropdownChild">Strategie</p>
               </Link>
             </div>
           </div>
@@ -64,20 +57,20 @@ export default function MainPage() {
               <p className="navP">Investování</p>
             </Link>
             <div className="dropdown">
-            <Link to="/cil">
-              <p className="dropdownChild">Cíl</p>
+              <Link to="/cil">
+                <p className="dropdownChild">Cíl</p>
               </Link>
               <Link to="/strategie">
-              <p className="dropdownChild">Strategie</p>
+                <p className="dropdownChild">Strategie</p>
               </Link>
               <Link to="/diverzifikace">
-              <p className="dropdownChild">Diverzifikace</p>
+                <p className="dropdownChild">Diverzifikace</p>
               </Link>
               <Link to="/rizika">
-              <p className="dropdownChild">Rizika</p>
+                <p className="dropdownChild">Rizika</p>
               </Link>
               <Link to="/monitorovani">
-              <p className="dropdownChild">Monitorování</p>
+                <p className="dropdownChild">Monitorování</p>
               </Link>
             </div>
           </div>
@@ -92,46 +85,21 @@ export default function MainPage() {
       </div>
 
       <div className="row">
-        <div className="leftcolumn">
+        <div className="leftcolumnClanky">
           <div className="card">
-            <h2>Obchodování na burze</h2>
-            <h5>Vydání titulku, 28. dubna, 2024</h5>
+            <h2>Technická analýza</h2>
+            <h5>Vydání titulku, 24. dubna, 2024</h5>
             <div className="fakeimg">
-              Obchodování na burze představuje proces nakupování a prodeje
-              finančních nástrojů jako jsou akcie, dluhopisy a komodity. Hlavním
-              účelem je dosáhnout zisku z rozdílu mezi cenou nákupu a prodeje
-              aktiv. Důležité aspekty zahrnují analýzu trhu a aktiv, řízení
-              rizika, diverzifikaci portfolia a psychologii obchodování. Analýza
-              trhu může být technická nebo fundamentální a poskytuje klíčové
-              informace o budoucím vývoji cen. Řízení rizika zahrnuje používání
-              strategií jako jsou stop-loss příkazy a diverzifikace portfolia s
-              cílem minimalizovat možné ztráty. Psychologie obchodování také
-              hraje důležitou roli, protože emoce mohou ovlivnit rozhodovací
-              proces. Je podstatné zachovat klid a disciplinu i v situacích, kdy
-              trh reaguje nečekaně. Obchodování na burze je dynamický proces
-              vyžadující neustálou pozornost a schopnost přizpůsobit se změnám
-              na trhu.
-            </div>
-            <p>Some text..</p>
-            <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
-            </p>
-          </div>
-          <div className="card">
-            <h2>Investování</h2>
-            <div id="border">
-              <h5>Vydání titulku, 28. dubna, 2024</h5>
-              <div className="fakeimg">
-                Investování je proces alokace finančních prostředků do různých aktiv s cílem dosáhnout budoucího růstu a zisku. 
-                Je to strategický způsob, jak zhodnocovat peníze, a může zahrnovat nákup akcií, dluhopisů, nemovitostí, komodit nebo jiných aktiv. 
-                Cílem investování je dosáhnout výnosů nad inflací a dosáhnout finančních cílů, jako je plánování na důchod, 
-                financování vzdělání nebo dosažení finanční nezávislosti. Investování vyžaduje trpělivost, 
-                pravidelné sledování trhu a schopnost tolerovat riziko spojené s investicemi. Důležitými aspekty investování jsou také diversifikace portfolia, 
-                sledování fundamentálních a technických faktorů a dlouhodobý investiční horizont.
-              </div>
+            Technická analýza představuje důležitý nástroj pro obchodníky na burze, kteří hledají možnosti optimalizace svých investičních strategií.
+            Tato forma analýzy se zaměřuje na studium historických cenových a objemových dat s cílem předvídat budoucí pohyby cenových úrovní na trhu.<br></br>
+            Pro obchodníky poskytuje technická analýza různé nástroje a techniky pro identifikaci trendů a vzorů v cenách aktiv. 
+            Mezi tyto nástroje patří různé druhy grafů, jako jsou čárové grafy, svíčkové grafy a liniové grafy, a různé indikátory, jako jsou průměrné hodnoty, oscilátory, a objemové indikátory.<br></br>
+            Hlavním cílem technické analýzy je využít minulé výkyvy cen a objemů k identifikaci opakujících se vzorů, které mohou poskytnout informace o tom, kam se trh pravděpodobně bude ubírat v budoucnosti. 
+            Obchodníci využívají technickou analýzu k identifikaci bodů vstupu a výstupu z trhu, stanovení úrovní podpory a odporu a vytváření obchodních strategií.<br></br>
+            Technická analýza není bez svých omezení a kritiků. Někteří tvrdí, že se jedná o slepou aplikaci minulých dat, která nemusí vždy přesně předpovídat budoucí pohyby na trhu. Další kritika se týká subjektivní povahy interpretace technických indikátorů a vzorů, která může vést k rozdílným výsledkům mezi různými obchodníky.<br></br>
+            Nicméně, pro mnoho obchodníků je technická analýza klíčovým prvkem jejich obchodní strategie. 
+            S vhodným porozuměním a správným využitím technických nástrojů mohou obchodníci identifikovat obchodní příležitosti s vysokým potenciálem zisku a minimalizovat riziko ztráty. 
+            Je důležité, aby každý obchodník pečlivě studoval technickou analýzu a experimentoval s různými nástroji a strategiemi, aby našel ten, který nejlépe vyhovuje jeho obchodnímu stylu a cílům.
             </div>
             <p>Some text..</p>
             <p>
@@ -142,35 +110,35 @@ export default function MainPage() {
             </p>
           </div>
         </div>
-        <div className="rightcolumn">
+
+
+        <div className="leftcolumnClanky">
           <div className="card">
-            <h2>Účel stránky</h2>
-            <div className="fakeimg">
-              Cílem této vzdělávací stránky zaměřené na obchodování a
-              investování je poskytnout stručné a komplexní informace, rady a
-              nástroje jak pro začátečníky, tak pokročilé obchodníky. Cílem je
-              pomoci jim porozumět finančním trhům, ovládnout základy
-              obchodování a efektivně spravovat svá portfolia.
+            <h2>Fundamentální analýza</h2>
+            <div id="border">
+              <h5>Vydání titulku, 24. dubna, 2024</h5>
+              <div className="fakeimg">
+              Tato forma analýzy se zaměřuje na studium základních faktorů ovlivňujících hodnotu investičního aktiva, jako jsou hospodářské ukazatele, výkazy zisku a ztráty společností, makroekonomické trendy a konkurenční prostředí.
+              Hlavním cílem fundamentální analýzy je určit skutečnou hodnotu aktiva a identifikovat příležitosti k investování na základě jeho fundamentálních charakteristik. 
+              Obchodníci využívají různé metody a nástroje fundamentální analýzy, včetně analýzy finančních výkazů, analýzy makroekonomických indikátorů a hodnocení konkurenčního prostředí.
+              Analýza finančních výkazů je jedním z klíčových prvků fundamentální analýzy. 
+              Obchodníci studují výkazy zisku a ztráty společností, aby posoudili finanční zdraví a výkonnost podniku. 
+              To zahrnuje analýzu tržeb, nákladů, ziskovosti a dalších klíčových ukazatelů, které mohou poskytnout informace o budoucím vývoji společnosti.
+              Makroekonomická analýza je dalším důležitým prvkem fundamentální analýzy. 
+              Obchodníci sledují makroekonomické trendy, jako je růst HDP, inflace, nezaměstnanost a měnová politika, aby identifikovali širší trendy a předpovídali vývoj trhu a ekonomiky.
+              Hodnocení konkurenčního prostředí je dalším klíčovým aspektem fundamentální analýzy. 
+              Obchodníci studují konkurenční pozici společnosti, její strategii, inovace a další faktory, které mohou ovlivnit její budoucí výkonnost a hodnotu na trhu.
+              Pro obchodníky je důležité porozumět fundamentální analýze a umět ji efektivně využívat k identifikaci investičních příležitostí a rozhodování o svých obchodních pozicích. 
+              Tato forma analýzy poskytuje obchodníkům širokou škálu nástrojů a technik pro objevení hodnotných investičních příležitostí a minimalizaci rizika ztráty.
+              </div>
             </div>
-            <p>
-              Some text about me in culpa qui officia deserunt mollit anim..
-            </p>
-          </div>
-          <div className="card">
-            <h3>Popular Post</h3>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-          </div>
-          <div className="card">
-            <h3>Follow Me</h3>
             <p>Some text..</p>
+            <p>
+              Sunt in culpa qui officia deserunt mollit anim id est laborum
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco.
+            </p>
           </div>
         </div>
       </div>

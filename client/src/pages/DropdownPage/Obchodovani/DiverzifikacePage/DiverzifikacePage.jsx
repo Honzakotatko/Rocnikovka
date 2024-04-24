@@ -13,11 +13,7 @@ export default function MainPage() {
       <div id="header_img">
         <div className="header">
           <div>
-            <img
-              src="./res/img/stahování-removebg-preview.ico"
-              alt=""
-              id="logo"
-            />
+          <div id="logo"></div>
           </div>
         </div>
       </div>
@@ -33,26 +29,27 @@ export default function MainPage() {
               <p className="navP">Obchodování</p>
             </Link>
             <div className="dropdown">
-            <Link to="/technologie">
-              <p className="dropdownChild">Technologie</p>
+              <Link to="/technologie">
+                <p className="dropdownChild">Technologie</p>
               </Link>
               <Link to="/diverzifikace0">
-              <p className="dropdownChild">Diverzifikace</p>
+                <p className="dropdownChild">Diverzifikace</p>
               </Link>
               <Link to="/rizika0">
-              <p className="dropdownChild">Rizika</p>
+                <p className="dropdownChild">Rizika</p>
               </Link>
-              <Link to="/vzdelavani">
-              <p className="dropdownChild">Vzdělávání</p>
-              </Link>
+
               <Link to="/analyza">
-              <p className="dropdownChild">Analýza</p>
+                <p className="dropdownChild">Analýza</p>
               </Link>
               <Link to="/nacasovani">
-              <p className="dropdownChild">Načasování</p>
+                <p className="dropdownChild">Načasování</p>
               </Link>
               <Link to="/psychologie">
-              <p className="dropdownChild">Psychologie</p>
+                <p className="dropdownChild">Psychologie</p>
+              </Link>
+              <Link to="/strategie0">
+                <p className="dropdownChild">Strategie</p>
               </Link>
             </div>
           </div>
@@ -61,20 +58,20 @@ export default function MainPage() {
               <p className="navP">Investování</p>
             </Link>
             <div className="dropdown">
-            <Link to="/cil">
-              <p className="dropdownChild">Cíl</p>
+              <Link to="/cil">
+                <p className="dropdownChild">Cíl</p>
               </Link>
               <Link to="/strategie">
-              <p className="dropdownChild">Strategie</p>
+                <p className="dropdownChild">Strategie</p>
               </Link>
               <Link to="/diverzifikace">
-              <p className="dropdownChild">Diverzifikace</p>
+                <p className="dropdownChild">Diverzifikace</p>
               </Link>
               <Link to="/rizika">
-              <p className="dropdownChild">Rizika</p>
+                <p className="dropdownChild">Rizika</p>
               </Link>
               <Link to="/monitorovani">
-              <p className="dropdownChild">Monitorování</p>
+                <p className="dropdownChild">Monitorování</p>
               </Link>
             </div>
           </div>
@@ -89,46 +86,20 @@ export default function MainPage() {
       </div>
 
       <div className="row">
-        <div className="leftcolumn">
+        <div className="leftcolumnVysvetlivky">
           <div className="card">
-            <h2>Obchodování na burze</h2>
-            <h5>Vydání titulku, 28. dubna, 2024</h5>
+            <h2>Diverzifikace portfolia</h2>
+            <h5>Vydání titulku, 24. dubna, 2024</h5>
             <div className="fakeimg">
-              Obchodování na burze představuje proces nakupování a prodeje
-              finančních nástrojů jako jsou akcie, dluhopisy a komodity. Hlavním
-              účelem je dosáhnout zisku z rozdílu mezi cenou nákupu a prodeje
-              aktiv. Důležité aspekty zahrnují analýzu trhu a aktiv, řízení
-              rizika, diverzifikaci portfolia a psychologii obchodování. Analýza
-              trhu může být technická nebo fundamentální a poskytuje klíčové
-              informace o budoucím vývoji cen. Řízení rizika zahrnuje používání
-              strategií jako jsou stop-loss příkazy a diverzifikace portfolia s
-              cílem minimalizovat možné ztráty. Psychologie obchodování také
-              hraje důležitou roli, protože emoce mohou ovlivnit rozhodovací
-              proces. Je podstatné zachovat klid a disciplinu i v situacích, kdy
-              trh reaguje nečekaně. Obchodování na burze je dynamický proces
-              vyžadující neustálou pozornost a schopnost přizpůsobit se změnám
-              na trhu.
-            </div>
-            <p>Some text..</p>
-            <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
-            </p>
-          </div>
-          <div className="card">
-            <h2>Investování</h2>
-            <div id="border">
-              <h5>Vydání titulku, 28. dubna, 2024</h5>
-              <div className="fakeimg">
-                Investování je proces alokace finančních prostředků do různých aktiv s cílem dosáhnout budoucího růstu a zisku. 
-                Je to strategický způsob, jak zhodnocovat peníze, a může zahrnovat nákup akcií, dluhopisů, nemovitostí, komodit nebo jiných aktiv. 
-                Cílem investování je dosáhnout výnosů nad inflací a dosáhnout finančních cílů, jako je plánování na důchod, 
-                financování vzdělání nebo dosažení finanční nezávislosti. Investování vyžaduje trpělivost, 
-                pravidelné sledování trhu a schopnost tolerovat riziko spojené s investicemi. Důležitými aspekty investování jsou také diversifikace portfolia, 
-                sledování fundamentálních a technických faktorů a dlouhodobý investiční horizont.
-              </div>
+            Diverzifikace portfolia v obchodování na burze je základním prvkem pro řízení rizika a dosažení dlouhodobé stability a udržitelného růstu. 
+            Tento koncept spočívá ve spreadování investic do různých typů aktiv a trhů, aby se minimalizovala závislost na jediném zdroji příjmů a snížilo se riziko v případě neúspěchu jednotlivých obchodů.<br></br>
+            Hlavním cílem diverzifikace portfolia je snížit vystavení obchodníka jednotlivým tržním nebo aktivním rizikům. 
+            To se děje tím, že se obchody rozloží do širokého spektra aktiv, která mají různé výkonnostní charakteristiky a reagují odlišně na tržní události. 
+            Pokud jedna obchodní pozice vykazuje špatné výsledky, může to být vyváženo úspěšným výkonem jiných obchodů v portfoliu.<br></br>
+            Diverzifikace portfolia může zahrnovat různé typy aktiv, jako jsou akcie, dluhopisy, komodity, forex a další. 
+            Rovněž může být diverzifikováno geograficky nebo sektorem, aby se minimalizovalo riziko spojené s regionálními nebo odvětvovými specifiky.<br></br>
+            Důležité je si uvědomit, že diversifikace portfolia nemusí eliminovat veškeré riziko, ale může pomoci snížit jeho dopad na celkové portfolio. 
+            Je důležité pečlivě vyvážit různé faktory, jako jsou výnosnost, likvidita a riziko, při tvorbě diverzifikovaného portfolia, aby se dosáhlo optimální rovnováhy mezi růstem a ochranou kapitálu.
             </div>
             <p>Some text..</p>
             <p>
@@ -140,34 +111,71 @@ export default function MainPage() {
           </div>
         </div>
         <div className="rightcolumn">
-          <div className="card">
-            <h2>Účel stránky</h2>
+          <div className="cardVysvetlivky">
+            <h2>Portfolio</h2>
             <div className="fakeimg">
-              Cílem této vzdělávací stránky zaměřené na obchodování a
-              investování je poskytnout stručné a komplexní informace, rady a
-              nástroje jak pro začátečníky, tak pokročilé obchodníky. Cílem je
-              pomoci jim porozumět finančním trhům, ovládnout základy
-              obchodování a efektivně spravovat svá portfolia.
+            Portfolio je soubor investic, který vlastní investor. Může zahrnovat různá aktiva, jako jsou akcie, dluhopisy, nemovitosti nebo komodity. 
+            Diverzifikace portfolia je klíčovým prvkem, umožňuje rozložit riziko a minimalizovat dopady negativních událostí. 
+            Správné řízení portfolia vyžaduje pravidelné zhodnocování a přizpůsobení se změnám na trhu a osobním cílům. 
+            Je důležité mít jasno v tom, jaké jsou vaše investiční cíle a toleranci k riziku, a na základě toho upravit své portfolio.
             </div>
             <p>
               Some text about me in culpa qui officia deserunt mollit anim..
             </p>
           </div>
+        </div>
+
+        <div className="leftcolumnClanky">
           <div className="card">
-            <h3>Popular Post</h3>
-            <div className="fakeimg">
-              <p>Image</p>
+            <h2>Rozmanitost aktiv</h2>
+            <div id="border">
+              <h5>Vydání titulku, 24. dubna, 2024</h5>
+              <div className="fakeimg">
+              Rozmanitost aktiv je klíčovým prvkem pro úspěšné obchodování na burze. 
+              Pro obchodníky je důležité rozložit své investice do různých typů aktiv, aby maximalizovali svůj potenciál na zisk a minimalizovali riziko.<br></br>
+              Různé typy aktiv zahrnují akcie, dluhopisy, komodity, forex a další. Každý typ aktiva má své vlastní charakteristiky a reaguje odlišně na tržní události. 
+              Díky rozmanitosti portfolia mohou obchodníci lépe využít různých tržních trendů a příležitostí.<br></br>
+              Rozmanitost aktiv také umožňuje obchodníkům snadněji řídit riziko. 
+              Pokud jedno aktivum vykazuje pokles v hodnotě, může být tento pokles vyvážen růstem jiných aktiv v portfoliu. 
+              Tím se snižuje celkové riziko portfolia a zvyšuje jeho stabilita.<br></br>
+              Je důležité, aby obchodníci pečlivě vyvážili různé faktory, jako jsou výnosnost, likvidita a riziko, při vytváření rozmanitého portfolia. 
+              Díky tomu mohou dosáhnout optimální rovnováhy mezi růstem a ochranou kapitálu, což je klíčem k dlouhodobému úspěchu na burze.
+              </div>
             </div>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
+            <p>Some text..</p>
+            <p>
+              Sunt in culpa qui officia deserunt mollit anim id est laborum
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco.
+            </p>
           </div>
           <div className="card">
-            <h3>Follow Me</h3>
+            <h2>Dlouhodobá vs. krátkodobá diverzifikace</h2>
+            <div id="border">
+              <h5>Vydání titulku, 24. dubna, 2024</h5>
+              <div className="fakeimg">
+
+              Dlouhodobá versus krátkodobá diverzifikace: Jak se liší a jaká je vhodná pro obchodníky?<br></br>
+              Obchodníci se často potýkají s otázkou, jak nejlépe rozložit své investice, aby maximalizovali svůj potenciální zisk a minimalizovali riziko. 
+              Diverzifikace je klíčem k dosažení těchto cílů, a existují dva hlavní přístupy: dlouhodobá a krátkodobá diverzifikace.<br></br>
+              Dlouhodobá diverzifikace se zaměřuje na vytvoření portfolia s dlouhodobým výhledem. 
+              Obchodníci, kteří upřednostňují tento přístup, hledají širokou škálu aktiv, která mají potenciál růst dlouhodobě. 
+              To může zahrnovat akcie silných a stabilních společností, dluhopisy s dlouhodobou dobrou bonitou, nemovitosti a další investiční nástroje. 
+              Cílem je minimalizovat riziko spojené s výkyvy trhu a dosáhnout stabilního růstu přes čas.<br></br>
+              Na druhou stranu, krátkodobá diverzifikace se soustředí na rozložení investic s krátkodobým horizontem. Obchodníci využívající tento přístup často vyhledávají rychlejší zisky nebo se zaměřují na specifické krátkodobé obchodní příležitosti. 
+              Mohou využívat krátkodobé obchody, deriváty nebo strategie s krátkodobým časovým horizontem. Cílem je využít krátkodobé výkyvy trhu a dosáhnout rychlých zisků.<br></br>
+              Každý z těchto přístupů má své výhody a nevýhody a vhodnost každého záleží na strategii a cílech daného obchodníka. Dlouhodobá diverzifikace může poskytnout stabilitu a pomalejší, 
+              ale trvalejší růst, zatímco krátkodobá diverzifikace může nabídnout možnost rychlejších zisků, ale s vyšším rizikem. Je důležité, aby každý obchodník pečlivě zvážil své strategie a cíle před rozhodnutím, jak se diverzifikovat.
+              </div>
+            </div>
             <p>Some text..</p>
+            <p>
+              Sunt in culpa qui officia deserunt mollit anim id est laborum
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco.
+            </p>
           </div>
         </div>
       </div>

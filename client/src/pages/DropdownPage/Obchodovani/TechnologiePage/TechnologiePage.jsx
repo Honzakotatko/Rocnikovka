@@ -13,11 +13,7 @@ export default function MainPage() {
       <div id="header_img">
         <div className="header">
           <div>
-            <img
-              src="./res/img/stahování-removebg-preview.ico"
-              alt=""
-              id="logo"
-            />
+            <div id="logo"></div>
           </div>
         </div>
       </div>
@@ -33,29 +29,26 @@ export default function MainPage() {
               <p className="navP">Obchodování</p>
             </Link>
             <div className="dropdown">
-            <Link to="/technologie">
-              <p className="dropdownChild">Technologie</p>
+              <Link to="/technologie">
+                <p className="dropdownChild">Technologie</p>
               </Link>
               <Link to="/diverzifikace0">
-              <p className="dropdownChild">Diverzifikace</p>
+                <p className="dropdownChild">Diverzifikace</p>
               </Link>
               <Link to="/rizika0">
-              <p className="dropdownChild">Rizika</p>
-              </Link>
-              <Link to="/vzdelavani">
-              <p className="dropdownChild">Vzdělávání</p>
+                <p className="dropdownChild">Rizika</p>
               </Link>
               <Link to="/analyza">
-              <p className="dropdownChild">Analýza</p>
+                <p className="dropdownChild">Analýza</p>
               </Link>
               <Link to="/nacasovani">
-              <p className="dropdownChild">Načasování</p>
+                <p className="dropdownChild">Načasování</p>
               </Link>
               <Link to="/psychologie">
-              <p className="dropdownChild">Psychologie</p>
+                <p className="dropdownChild">Psychologie</p>
               </Link>
               <Link to="/strategie0">
-              <p className="dropdownChild">Strategie</p>
+                <p className="dropdownChild">Strategie</p>
               </Link>
             </div>
           </div>
@@ -64,20 +57,20 @@ export default function MainPage() {
               <p className="navP">Investování</p>
             </Link>
             <div className="dropdown">
-            <Link to="/cil">
-              <p className="dropdownChild">Cíl</p>
+              <Link to="/cil">
+                <p className="dropdownChild">Cíl</p>
               </Link>
               <Link to="/strategie">
-              <p className="dropdownChild">Strategie</p>
+                <p className="dropdownChild">Strategie</p>
               </Link>
               <Link to="/diverzifikace">
-              <p className="dropdownChild">Diverzifikace</p>
+                <p className="dropdownChild">Diverzifikace</p>
               </Link>
               <Link to="/rizika">
-              <p className="dropdownChild">Rizika</p>
+                <p className="dropdownChild">Rizika</p>
               </Link>
               <Link to="/monitorovani">
-              <p className="dropdownChild">Monitorování</p>
+                <p className="dropdownChild">Monitorování</p>
               </Link>
             </div>
           </div>
@@ -92,46 +85,29 @@ export default function MainPage() {
       </div>
 
       <div className="row">
-        <div className="leftcolumn">
+        <div className="leftcolumnVysvetlivky">
           <div className="card">
-            <h2>Obchodování na burze</h2>
-            <h5>Vydání titulku, 28. dubna, 2024</h5>
+            <h2>Správný výběr Brokera</h2>
+            <h5>Vydání titulku, 24. dubna, 2024</h5>
             <div className="fakeimg">
-              Obchodování na burze představuje proces nakupování a prodeje
-              finančních nástrojů jako jsou akcie, dluhopisy a komodity. Hlavním
-              účelem je dosáhnout zisku z rozdílu mezi cenou nákupu a prodeje
-              aktiv. Důležité aspekty zahrnují analýzu trhu a aktiv, řízení
-              rizika, diverzifikaci portfolia a psychologii obchodování. Analýza
-              trhu může být technická nebo fundamentální a poskytuje klíčové
-              informace o budoucím vývoji cen. Řízení rizika zahrnuje používání
-              strategií jako jsou stop-loss příkazy a diverzifikace portfolia s
-              cílem minimalizovat možné ztráty. Psychologie obchodování také
-              hraje důležitou roli, protože emoce mohou ovlivnit rozhodovací
-              proces. Je podstatné zachovat klid a disciplinu i v situacích, kdy
-              trh reaguje nečekaně. Obchodování na burze je dynamický proces
-              vyžadující neustálou pozornost a schopnost přizpůsobit se změnám
-              na trhu.
-            </div>
-            <p>Some text..</p>
-            <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
-            </p>
-          </div>
-          <div className="card">
-            <h2>Investování</h2>
-            <div id="border">
-              <h5>Vydání titulku, 28. dubna, 2024</h5>
-              <div className="fakeimg">
-                Investování je proces alokace finančních prostředků do různých aktiv s cílem dosáhnout budoucího růstu a zisku. 
-                Je to strategický způsob, jak zhodnocovat peníze, a může zahrnovat nákup akcií, dluhopisů, nemovitostí, komodit nebo jiných aktiv. 
-                Cílem investování je dosáhnout výnosů nad inflací a dosáhnout finančních cílů, jako je plánování na důchod, 
-                financování vzdělání nebo dosažení finanční nezávislosti. Investování vyžaduje trpělivost, 
-                pravidelné sledování trhu a schopnost tolerovat riziko spojené s investicemi. Důležitými aspekty investování jsou také diversifikace portfolia, 
-                sledování fundamentálních a technických faktorů a dlouhodobý investiční horizont.
-              </div>
+            Správný výběr brokera je klíčovým rozhodnutím pro každého investora. 
+            Broker hraje důležitou roli ve vašem investičním procesu a může ovlivnit vaše investiční výnosy a zkušenosti. 
+            Při výběru brokera je důležité zvážit několik klíčových faktorů, jako jsou poplatky, dostupnost trhů a nástrojů, 
+            uživatelské rozhraní, spolehlivost a podpora zákazníků, bezpečnost a regulace, vzdělávací a výzkumné nástroje a mobilní aplikace.<br></br> 
+            Poplatky a provize hrají důležitou roli v celkových nákladech na investování, 
+            proto je důležité provést pečlivé porovnání mezi různými brokery. 
+            Dostupnost trhů a investičních nástrojů je také klíčovým faktorem, 
+            zejména pokud máte zájem o obchodování s určitými typy aktiv nebo na určitých trzích.<br></br> 
+            Uživatelské rozhraní platformy brokera by mělo být přehledné a snadno použitelné, 
+            což vám usnadní navigaci a obchodování. Spolehlivost při rychlém reagování na vaše otázky nebo řešení problémů je skutečně důležité. 
+            Bezpečnost a regulace jsou nezbytné pro ochranu vašich investic a osobních údajů. Proto je důležité vybrat si brokera, 
+            který je regulován a řádně registrovaný.<br></br> 
+            Vzdělávací nástroje nebo nástroje pro výzkum a analýzu. 
+            Pomáhají při vytváření vaší strategie nebo riskantním manažerství. Mobilní aplikace brokera by měly být i plně funkční. 
+            Měli byste mít možnost obchodovat a spravovat své investice z jakéhokoli místa. Dnes je obchodování s mobilními telefony významnější než kdy jindy, 
+            a proto může být užitečné být vázaný na jedno zařízení.<br></br> 
+            Vybrat si správného brokera je důležitým krokem pro každého investora. 
+            Pečlivě zvažte všechny tyto faktory a vytvořte informované rozhodnutí, které se nejlépe hodí k vašim individuálním potřebám a cílům.
             </div>
             <p>Some text..</p>
             <p>
@@ -143,34 +119,75 @@ export default function MainPage() {
           </div>
         </div>
         <div className="rightcolumn">
-          <div className="card">
-            <h2>Účel stránky</h2>
+          <div className="cardVysvetlivky">
+            <h2>Broker</h2>
             <div className="fakeimg">
-              Cílem této vzdělávací stránky zaměřené na obchodování a
-              investování je poskytnout stručné a komplexní informace, rady a
-              nástroje jak pro začátečníky, tak pokročilé obchodníky. Cílem je
-              pomoci jim porozumět finančním trhům, ovládnout základy
-              obchodování a efektivně spravovat svá portfolia.
+            Broker je individuální nebo institucionální osoba, která působí jako prostředník mezi investory a finančními trhy. <br></br>
+            Jejich hlavním účelem je usnadnit nákup a prodej různých druhů finančních aktiv, akcií, dluhopisů, komodit a měn, a vybírat za tento proces platbu nebo provizi. 
+            Brokeři také mohou poskytovat svým zákazníkům investiční poradenství, vzdělávací materiály a analytické nástroje. <br></br>
+            Další povinností brokeři je dodržování regulace a ochrana obchodních operací.
             </div>
             <p>
               Some text about me in culpa qui officia deserunt mollit anim..
             </p>
           </div>
+        </div>
+
+        <div className="leftcolumnClanky">
           <div className="card">
-            <h3>Popular Post</h3>
-            <div className="fakeimg">
-              <p>Image</p>
+            <h2>Automatizované obchodování</h2>
+            <div id="border">
+              <h5>Vydání titulku, 24. dubna, 2024</h5>
+              <div className="fakeimg">
+              Automatizované obchodování je proces, při kterém počítačové algoritmy provádějí obchodní operace na finančních trzích s minimálním nebo žádným zásahem lidského faktoru. 
+              Tato metoda obchodování využívá sofistikované algoritmické strategie, které jsou navrženy tak, 
+              aby analyzovaly tržní podmínky a prováděly obchody podle předem stanovených pravidel. 
+              Automatizované obchodní systémy mohou být naprogramovány tak, aby reagovaly na různé signály trhu, jako jsou cenové pohyby, objem obchodů nebo technické indikátory.<br></br> 
+              Výhody automatizovaného obchodování zahrnují rychlost provedení obchodů, eliminaci emocionálního vlivu a možnost obchodování 24 hodin denně bez přerušení. 
+              To umožňuje investovatérovům využívat obchodní příležitosti i v dobách, kdy jsou mimo provoz nebo spí.<br></br> 
+              Nicméně, existuje také určité riziko spojené s automatizovaným obchodováním. Například, 
+              nedostatečně nastavené algoritmy mohou vést k nežádoucím obchodům a ztrátám. Kromě toho může nedostatek lidského dohledu způsobit, 
+              že obchodní systémy budou reagovat nepředvídatelně na změny tržních podmínek. 
+              Je proto důležité mít pečlivě navržené a testované obchodní strategie a pravidla řízení rizik, aby se minimalizovaly potenciální ztráty.<br></br> 
+              Automatizované obchodování je stále více populární mezi institucionálními investory a obchodníky, 
+              kteří hledají efektivní způsob, jak optimalizovat své obchodní strategie a zlepšit výkonnost svých portfolií.
+              </div>
             </div>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
+            <p>Some text..</p>
+            <p>
+              Sunt in culpa qui officia deserunt mollit anim id est laborum
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco.
+            </p>
           </div>
           <div className="card">
-            <h3>Follow Me</h3>
+            <h2>Umělá inteligence a strojové učení</h2>
+            <div id="border">
+              <h5>Vydání titulku, 24. dubna, 2024</h5>
+              <div className="fakeimg">
+              Umělá inteligence (AI) a strojové učení nabízejí revoluční přístup k obchodování na burze. 
+              Tyto technologie umožňují vytváření sofistikovaných algoritmů, které mohou analyzovat obrovské množství dat a provádět rychlé a přesné obchodní rozhodnutí.<br></br> 
+              Díky umělé inteligenci a strojovému učení mohou obchodníci vytvářet modely, které identifikují vzory v tržních datech a predikují budoucí trendy. 
+              Tyto modely mohou být použity k automatizaci obchodních strategií, což umožňuje obchodníkům reagovat na tržní události v reálném čase a maximalizovat zisky.<br></br> 
+              Umělá inteligence také umožňuje obchodníkům analyzovat obrovské množství dat z různých zdrojů, včetně zpráv, 
+              sociálních médií, cenových grafů a ekonomických ukazatelů. 
+              Tímto způsobem mohou obchodníci lépe porozumět tržním podmínkám a identifikovat obchodní příležitosti s větší přesností.<br></br>
+              Další výhodou umělé inteligence v obchodování na burze je schopnost detekovat a minimalizovat rizika. 
+              Algoritmy mohou sledovat tržní trendy a automaticky reagovat na nežádoucí události, jako jsou prudké poklesy cen nebo neočekávané zprávy. 
+              To může pomoci obchodníkům chránit svá portfolia a minimalizovat ztráty.<br></br>
+              Celkově umělá inteligence a strojové učení přinášejí do obchodování na burze nové možnosti a nástroje, které umožňují obchodníkům lépe porozumět trhu, 
+              identifikovat obchodní příležitosti a minimalizovat rizika. 
+              Tyto technologie mají potenciál zvýšit efektivitu a produktivitu obchodníků a přinést novou úroveň inovace do světa finančních trhů.
+              </div>
+            </div>
             <p>Some text..</p>
+            <p>
+              Sunt in culpa qui officia deserunt mollit anim id est laborum
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco.
+            </p>
           </div>
         </div>
       </div>

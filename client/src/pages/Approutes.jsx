@@ -9,7 +9,6 @@ import NacasovaniPage from "./DropdownPage/Obchodovani/NacasovaniPage/Nacasovani
 import PsychologiePage from "./DropdownPage/Obchodovani/PsychologiePage/PsychologiePage"
 import RizikaPage from "./DropdownPage/Obchodovani/RizikaPage/RizikaPage"
 import TechnologiePage from "./DropdownPage/Obchodovani/TechnologiePage/TechnologiePage"
-import VzdelavaniPage from "./DropdownPage/Obchodovani/VzdelavaniPage/VzdelavaniPage"
 import CilPage from "./DropdownPage/Investovani/CilPage/CilPage"
 import Diverzifikace0Page from "./DropdownPage/Investovani/Diverzifikace0Page/DiverzifikacePage0"
 import MonitorovaniPage from "./DropdownPage/Investovani/MonitorovaniPage/Monitorovani"
@@ -41,7 +40,6 @@ export default function Approutes(){
                     <Route path="/rizika" element={<Rizika0Page></Rizika0Page>}></Route>
                     <Route path="/strategie" element={<StrategiePage></StrategiePage>}></Route>
                     <Route path="/strategie0" element={<Strategie0Page></Strategie0Page>}></Route>
-                    <Route path="/vzdelavani" element={<VzdelavaniPage></VzdelavaniPage>}></Route>
                     
                 </Routes>
             </BrowserRouter>

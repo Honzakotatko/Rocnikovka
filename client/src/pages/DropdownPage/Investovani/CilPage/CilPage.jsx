@@ -42,9 +42,7 @@ export default function MainPage() {
               <Link to="/rizika0">
               <p className="dropdownChild">Rizika</p>
               </Link>
-              <Link to="/vzdelavani">
-              <p className="dropdownChild">Vzdělávání</p>
-              </Link>
+
               <Link to="/analyza">
               <p className="dropdownChild">Analýza</p>
               </Link>
