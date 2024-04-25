@@ -98,15 +98,26 @@ body {
   font-size: 16px; /* Výchozí velikost textu */
   padding: 20px; /* Přidáme polštáře kolem textu pro lepší čitelnost */
   box-sizing: border-box; /* Zahrnout padding do celkové šířky elementu */
-  background-color: #CCCDCF; /* Zachovat barvu pozadí */
+  background-color: #AAB5FF; /* Zachovat barvu pozadí */
   min-height: 200px; /* Minimální výška .fakeimg, aby se zvětšovala podle obsahu */
   display: flex; /* Použijeme flexbox pro dynamickou výšku */
   align-items: center; /* Zarovnání obsahu vertikálně */
+  border-radius: 10px; /* Zaoblení rohů */
+}
+
+.fakeimgemail {
+  font-size: 16px; /* Výchozí velikost textu */
+  padding: 20px; /* Přidáme polštáře kolem textu pro lepší čitelnost */
+  box-sizing: border-box; /* Zahrnout padding do celkové šířky elementu */
+  background-color: #AAB5FF; /* Zachovat barvu pozadí */
+  display: flex; /* Použijeme flexbox pro dynamickou výšku */
+  align-items: center; /* Zarovnání obsahu vertikálně */
+  border-radius: 10px; /* Zaoblení rohů */
 }
 
 /* Pro menší obrazovky snižte velikost textu */
 @media screen and (max-width: 600px) {
-  .fakeimg {
+  .fakeimg, .fakeimgemail {
     font-size: 14px; /* Snížení velikosti textu na menších obrazovkách */
   }
 }
@@ -117,13 +128,16 @@ body {
   color: white;
   padding: 20px;
   margin-top: 20px;
+  border-radius: 10px; /* Zaoblení rohů */
 }
 
+
 .cardVysvetlivky {
-  background-color: #5f5f5f;
+  background-color: #74777A;
   color: white;
   padding: 35px;
   margin-top: 20px;
+  border-radius: 10px; /* Zaoblení rohů */
 }
 /* Clear floats after the columns */
 .row::after {
@@ -136,7 +150,7 @@ body {
   user-select: none;
   padding: 5px;
   text-align: center;
-  background: #9CB9F2; /* Světle šedá barva */
+  background: #74777A; /* Světle šedá barva */
   margin-top: 20px;
   border: none;
 }
@@ -178,7 +192,7 @@ body {
 }
 
 #header_img {
-  background-image: url(../img/stockvault-simple-finance-background260820.jpg);
+  background-image: url(../img/5612887.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -187,7 +201,7 @@ body {
 }
 
 #logo {
-  background-image: url(../img/stahování-removebg-preview.png);
+  background-image: url(../img/make-logo-with-text-educateti-removebg-preview.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -215,7 +229,7 @@ body {
 }
 
 .navChild:hover {
-  background-color: #87b140; /* Světle zelená barva */
+  background-color: #AAB5FF; /* Světle zelená barva */
 }
 
 .navChild:hover a {
@@ -240,7 +254,7 @@ body {
   height: 4rem;
   text-decoration: none;
   cursor: pointer;
-  background: #5f5f5f; /* Světle šedá barva */
+  background: #74777A; /* Světle šedá barva */
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -248,6 +262,6 @@ body {
 }
 
 .navChild .dropdown .dropdownChild:hover {
-  background-color: #87b140; /* Světle zelená barva */
+  background-color: #AAB5FF; /* Světle zelená barva */
   color: #000000; /* Černá barva */
 }

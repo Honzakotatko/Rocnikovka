@@ -150,20 +150,10 @@ export default function MainPage() {
             </p>
           </div>
           <div className="card">
-            <h3>Popular Post</h3>
-            <div className="fakeimg">
-              <p>Image</p>
+            <h3>E-mail</h3>
+            <div className="fakeimgemail">
+              <div>hkotatko@email.cz</div>
             </div>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-          </div>
-          <div className="card">
-            <h3>Follow Me</h3>
-            <p>Some text..</p>
           </div>
         </div>
       </div>

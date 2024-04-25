@@ -13,11 +13,7 @@ export default function MainPage() {
       <div id="header_img">
         <div className="header">
           <div>
-            <img
-              src="./res/img/stahování-removebg-preview.ico"
-              alt=""
-              id="logo"
-            />
+            <div id="logo"></div>
           </div>
         </div>
       </div>
@@ -33,26 +29,26 @@ export default function MainPage() {
               <p className="navP">Obchodování</p>
             </Link>
             <div className="dropdown">
-            <Link to="/technologie">
-              <p className="dropdownChild">Technologie</p>
+              <Link to="/technologie">
+                <p className="dropdownChild">Technologie</p>
               </Link>
               <Link to="/diverzifikace0">
-              <p className="dropdownChild">Diverzifikace</p>
+                <p className="dropdownChild">Diverzifikace</p>
               </Link>
               <Link to="/rizika0">
-              <p className="dropdownChild">Rizika</p>
+                <p className="dropdownChild">Rizika</p>
               </Link>
               <Link to="/analyza">
-              <p className="dropdownChild">Analýza</p>
+                <p className="dropdownChild">Analýza</p>
               </Link>
               <Link to="/nacasovani">
-              <p className="dropdownChild">Načasování</p>
+                <p className="dropdownChild">Načasování</p>
               </Link>
               <Link to="/psychologie">
-              <p className="dropdownChild">Psychologie</p>
+                <p className="dropdownChild">Psychologie</p>
               </Link>
               <Link to="/strategie0">
-              <p className="dropdownChild">Strategie</p>
+                <p className="dropdownChild">Strategie</p>
               </Link>
             </div>
           </div>
@@ -61,20 +57,20 @@ export default function MainPage() {
               <p className="navP">Investování</p>
             </Link>
             <div className="dropdown">
-            <Link to="/cil">
-              <p className="dropdownChild">Cíl</p>
+              <Link to="/cil">
+                <p className="dropdownChild">Cíl</p>
               </Link>
               <Link to="/strategie">
-              <p className="dropdownChild">Strategie</p>
+                <p className="dropdownChild">Strategie</p>
               </Link>
               <Link to="/diverzifikace">
-              <p className="dropdownChild">Diverzifikace</p>
+                <p className="dropdownChild">Diverzifikace</p>
               </Link>
               <Link to="/rizika">
-              <p className="dropdownChild">Rizika</p>
+                <p className="dropdownChild">Rizika</p>
               </Link>
               <Link to="/monitorovani">
-              <p className="dropdownChild">Monitorování</p>
+                <p className="dropdownChild">Monitorování</p>
               </Link>
             </div>
           </div>
@@ -89,46 +85,20 @@ export default function MainPage() {
       </div>
 
       <div className="row">
-        <div className="leftcolumn">
+        <div className="leftcolumnVysvetlivky">
           <div className="card">
-            <h2>Obchodování na burze</h2>
-            <h5>Vydání titulku, 28. dubna, 2024</h5>
+            <h2>Denní obchodování</h2>
+            <h5>Vydání titulku, 25. dubna, 2024</h5>
             <div className="fakeimg">
-              Obchodování na burze představuje proces nakupování a prodeje
-              finančních nástrojů jako jsou akcie, dluhopisy a komodity. Hlavním
-              účelem je dosáhnout zisku z rozdílu mezi cenou nákupu a prodeje
-              aktiv. Důležité aspekty zahrnují analýzu trhu a aktiv, řízení
-              rizika, diverzifikaci portfolia a psychologii obchodování. Analýza
-              trhu může být technická nebo fundamentální a poskytuje klíčové
-              informace o budoucím vývoji cen. Řízení rizika zahrnuje používání
-              strategií jako jsou stop-loss příkazy a diverzifikace portfolia s
-              cílem minimalizovat možné ztráty. Psychologie obchodování také
-              hraje důležitou roli, protože emoce mohou ovlivnit rozhodovací
-              proces. Je podstatné zachovat klid a disciplinu i v situacích, kdy
-              trh reaguje nečekaně. Obchodování na burze je dynamický proces
-              vyžadující neustálou pozornost a schopnost přizpůsobit se změnám
-              na trhu.
-            </div>
-            <p>Some text..</p>
-            <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
-            </p>
-          </div>
-          <div className="card">
-            <h2>Investování</h2>
-            <div id="border">
-              <h5>Vydání titulku, 28. dubna, 2024</h5>
-              <div className="fakeimg">
-                Investování je proces alokace finančních prostředků do různých aktiv s cílem dosáhnout budoucího růstu a zisku. 
-                Je to strategický způsob, jak zhodnocovat peníze, a může zahrnovat nákup akcií, dluhopisů, nemovitostí, komodit nebo jiných aktiv. 
-                Cílem investování je dosáhnout výnosů nad inflací a dosáhnout finančních cílů, jako je plánování na důchod, 
-                financování vzdělání nebo dosažení finanční nezávislosti. Investování vyžaduje trpělivost, 
-                pravidelné sledování trhu a schopnost tolerovat riziko spojené s investicemi. Důležitými aspekty investování jsou také diversifikace portfolia, 
-                sledování fundamentálních a technických faktorů a dlouhodobý investiční horizont.
-              </div>
+            Day trading vyžaduje rychlé rozhodování a schopnost rychle reagovat na krátkodobé pohyby cen. 
+            Obchodníci využívají technickou analýzu a sledování cenových grafů s krátkými časovými horizonty, jako jsou například 1minutové nebo 5minutové intervaly, k identifikaci krátkodobých obchodních příležitostí.<br></br>
+            Strategie day tradingu zahrnují například breakout strategie, kdy obchodník vstupuje do obchodu, když cena aktivu prorazí určitou cenovou úroveň, nebo reversal strategie, kdy obchodník vstupuje do obchodu po obratu trendu. 
+            Dalšími běžnými strategiemi jsou scalping, kde obchodník vytváří zisk z drobných cenových pohybů, a momentum trading, kdy obchodník vstupuje do obchodu na základě síly současného trendu.<br></br>
+            Pro day tradery je důležité mít pevný obchodní plán a disciplinovaně ho dodržovat. 
+            To zahrnuje stanovení cílů zisku a ztráty pro každý obchod, používání stop lossů k minimalizaci rizika a dodržování předem stanovených pravidel pro vstup a výstup z obchodů.<br></br>
+            Day trading vyžaduje také rychlý internetový připojení a vhodnou obchodní platformu s nízkými poplatky a rychlým provedením obchodů. 
+            Obchodníci často také využívají technologie jako jsou elektronické obchodní algoritmy (algotrading) nebo automatizované obchodní systémy (ATS), které umožňují automatizované obchodování na základě předdefinovaných pravidel.<br></br>
+            Celkově je day trading rychlým a vzrušujícím způsobem, jak dosáhnout zisku na finančních trzích. Nicméně, vyžaduje trpělivost, disciplínu a dobrou znalost trhu.
             </div>
             <p>Some text..</p>
             <p>
@@ -140,34 +110,48 @@ export default function MainPage() {
           </div>
         </div>
         <div className="rightcolumn">
-          <div className="card">
-            <h2>Účel stránky</h2>
+          <div className="cardVysvetlivky">
+            <h2>Výběr strategie</h2>
             <div className="fakeimg">
-              Cílem této vzdělávací stránky zaměřené na obchodování a
-              investování je poskytnout stručné a komplexní informace, rady a
-              nástroje jak pro začátečníky, tak pokročilé obchodníky. Cílem je
-              pomoci jim porozumět finančním trhům, ovládnout základy
-              obchodování a efektivně spravovat svá portfolia.
+            Každý obchodník potřebuje svou vlastní strategii, která mu nejlépe vyhovuje. 
+            Někomu může přinášet úspěch swing obchodování, kdy se zaměřuje na využití krátkodobých cenových pohybů, zatímco jiný se cítí lépe s denním obchodováním, kdy se snaží vstoupit do obchodu a uzavřít ho během jednoho obchodního dne. 
+            Klíčem k úspěchu je nejen vybrat si správnou strategii, ale také ji neustále zdokonalovat a přizpůsobovat se měnícím se tržním podmínkám. 
+            Důležité je být otevřený pro experimentování, učení se z vlastních chyb a průběžné optimalizace obchodního přístupu.
+            Nakonec, úspěšný obchodník je ten, kdo dokáže nejlépe využít své strategie a přizpůsobit se měnícímu se trhu, a tak dosáhnout dlouhodobého úspěchu.
             </div>
             <p>
               Some text about me in culpa qui officia deserunt mollit anim..
             </p>
           </div>
+        </div>
+
+        <div className="leftcolumnClanky">
           <div className="card">
-            <h3>Popular Post</h3>
-            <div className="fakeimg">
-              <p>Image</p>
+            <h2>Swing obchodování</h2>
+            <div id="bordner">
+              <h5>Vydání titulku, 25. dubna, 2024</h5>
+              <div className="fakeimg">
+              Swing obchodování je obchodní strategie, která se zaměřuje na využití krátkodobých cenových pohybů aktiv jako jsou akcie, forex nebo komodity. 
+              Tato strategie je vhodná pro obchodníky, kteří preferují střednědobý časový horizont a jsou ochotni držet své pozice několik dní až několik týdnů.<br></br>
+              Cílem swing obchodování je vstoupit do obchodu ve správný čas, kdy je aktivum blízko k dosažení svého maximálního nebo minimálního bodu, a získat zisk z následného cenového pohybu. 
+              Obchodníci využívají technickou analýzu a sledování cenových grafů k identifikaci trendů a vzorů, které naznačují možné budoucí pohyby cen.<br></br>
+              Mezi běžné strategie swing obchodování patří například trendové strategie, kde obchodník vstupuje do obchodu ve směru hlavního trendu, a protitrendové strategie, kde obchodník vstupuje do obchodu proti hlavnímu trendu v očekávání obratu. 
+              Dalšími strategiemi jsou například breakout strategie, kde obchodník vstupuje do obchodu, když cena prorazí určitou cenovou úroveň, nebo pullback strategie, kde obchodník vstupuje do obchodu počkáním na krátkodobý obrat v hlavním trendu.<br></br>
+              Pro swing obchodování je důležité mít pevný obchodní plán a dodržovat ho disciplinovaně. 
+              To zahrnuje stanovení cílů zisku a ztráty pro každý obchod, používání stop lossů k minimalizaci rizika a dodržování předem stanovených pravidel pro vstup a výstup z obchodů.<br></br>
+              Swing obchodování vyžaduje také trpělivost a pečlivé sledování tržních podmínek. 
+              Obchodníci by měli být schopni rozpoznat vhodné obchodní příležitosti a efektivně reagovat na změny na trhu. 
+              Důkladná analýza a sledování cenových grafů jsou klíčové pro úspěch v swing obchodování.<br></br>
+              Celkově je swing obchodování atraktivní strategií pro obchodníky, kteří preferují střednědobý časový horizont a jsou schopni sledovat a využívat krátkodobé cenové pohyby aktiv.
+              </div>
             </div>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-          </div>
-          <div className="card">
-            <h3>Follow Me</h3>
             <p>Some text..</p>
+            <p>
+              Sunt in culpa qui officia deserunt mollit anim id est laborum
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco.
+            </p>
           </div>
         </div>
       </div>

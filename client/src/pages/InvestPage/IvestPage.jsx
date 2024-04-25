@@ -161,10 +161,6 @@ export default function MainPage() {
               <p>Image</p>
             </div>
           </div>
-          <div className="card">
-            <h3>Follow Me</h3>
-            <p>Some text..</p>
-          </div>
         </div>
       </div>
 

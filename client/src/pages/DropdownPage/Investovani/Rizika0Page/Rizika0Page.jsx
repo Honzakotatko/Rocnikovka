@@ -13,11 +13,7 @@ export default function MainPage() {
       <div id="header_img">
         <div className="header">
           <div>
-            <img
-              src="./res/img/stahování-removebg-preview.ico"
-              alt=""
-              id="logo"
-            />
+          <div id="logo"></div>
           </div>
         </div>
       </div>
@@ -33,26 +29,26 @@ export default function MainPage() {
               <p className="navP">Obchodování</p>
             </Link>
             <div className="dropdown">
-            <Link to="/technologie">
-              <p className="dropdownChild">Technologie</p>
+              <Link to="/technologie">
+                <p className="dropdownChild">Technologie</p>
               </Link>
               <Link to="/diverzifikace0">
-              <p className="dropdownChild">Diverzifikace</p>
+                <p className="dropdownChild">Diverzifikace</p>
               </Link>
               <Link to="/rizika0">
-              <p className="dropdownChild">Rizika</p>
+                <p className="dropdownChild">Rizika</p>
               </Link>
               <Link to="/analyza">
-              <p className="dropdownChild">Analýza</p>
+                <p className="dropdownChild">Analýza</p>
               </Link>
               <Link to="/nacasovani">
-              <p className="dropdownChild">Načasování</p>
+                <p className="dropdownChild">Načasování</p>
               </Link>
               <Link to="/psychologie">
-              <p className="dropdownChild">Psychologie</p>
+                <p className="dropdownChild">Psychologie</p>
               </Link>
               <Link to="/strategie0">
-              <p className="dropdownChild">Strategie</p>
+                <p className="dropdownChild">Strategie</p>
               </Link>
             </div>
           </div>
@@ -61,20 +57,20 @@ export default function MainPage() {
               <p className="navP">Investování</p>
             </Link>
             <div className="dropdown">
-            <Link to="/cil">
-              <p className="dropdownChild">Cíl</p>
+              <Link to="/cil">
+                <p className="dropdownChild">Cíl</p>
               </Link>
               <Link to="/strategie">
-              <p className="dropdownChild">Strategie</p>
+                <p className="dropdownChild">Strategie</p>
               </Link>
               <Link to="/diverzifikace">
-              <p className="dropdownChild">Diverzifikace</p>
+                <p className="dropdownChild">Diverzifikace</p>
               </Link>
               <Link to="/rizika">
-              <p className="dropdownChild">Rizika</p>
+                <p className="dropdownChild">Rizika</p>
               </Link>
               <Link to="/monitorovani">
-              <p className="dropdownChild">Monitorování</p>
+                <p className="dropdownChild">Monitorování</p>
               </Link>
             </div>
           </div>
@@ -89,46 +85,20 @@ export default function MainPage() {
       </div>
 
       <div className="row">
-        <div className="leftcolumn">
+        <div className="leftcolumnClanky">
           <div className="card">
-            <h2>Obchodování na burze</h2>
-            <h5>Vydání titulku, 28. dubna, 2024</h5>
+            <h2>Tržní rizika</h2>
+            <h5>Vydání titulku, 25. dubna, 2024</h5>
             <div className="fakeimg">
-              Obchodování na burze představuje proces nakupování a prodeje
-              finančních nástrojů jako jsou akcie, dluhopisy a komodity. Hlavním
-              účelem je dosáhnout zisku z rozdílu mezi cenou nákupu a prodeje
-              aktiv. Důležité aspekty zahrnují analýzu trhu a aktiv, řízení
-              rizika, diverzifikaci portfolia a psychologii obchodování. Analýza
-              trhu může být technická nebo fundamentální a poskytuje klíčové
-              informace o budoucím vývoji cen. Řízení rizika zahrnuje používání
-              strategií jako jsou stop-loss příkazy a diverzifikace portfolia s
-              cílem minimalizovat možné ztráty. Psychologie obchodování také
-              hraje důležitou roli, protože emoce mohou ovlivnit rozhodovací
-              proces. Je podstatné zachovat klid a disciplinu i v situacích, kdy
-              trh reaguje nečekaně. Obchodování na burze je dynamický proces
-              vyžadující neustálou pozornost a schopnost přizpůsobit se změnám
-              na trhu.
-            </div>
-            <p>Some text..</p>
-            <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
-            </p>
-          </div>
-          <div className="card">
-            <h2>Investování</h2>
-            <div id="border">
-              <h5>Vydání titulku, 28. dubna, 2024</h5>
-              <div className="fakeimg">
-                Investování je proces alokace finančních prostředků do různých aktiv s cílem dosáhnout budoucího růstu a zisku. 
-                Je to strategický způsob, jak zhodnocovat peníze, a může zahrnovat nákup akcií, dluhopisů, nemovitostí, komodit nebo jiných aktiv. 
-                Cílem investování je dosáhnout výnosů nad inflací a dosáhnout finančních cílů, jako je plánování na důchod, 
-                financování vzdělání nebo dosažení finanční nezávislosti. Investování vyžaduje trpělivost, 
-                pravidelné sledování trhu a schopnost tolerovat riziko spojené s investicemi. Důležitými aspekty investování jsou také diversifikace portfolia, 
-                sledování fundamentálních a technických faktorů a dlouhodobý investiční horizont.
-              </div>
+            Pro investory na burze je tržní riziko jedním z nejdůležitějších aspektů, které ovlivňují jejich rozhodování a výsledky. 
+            Tržní riziko představuje možnost, že hodnota jejich investic klesne v důsledku výkyvů na trhu.<br></br>
+            Hlavními faktory tržního rizika jsou externí události, jako jsou makroekonomické trendy, geopolitická napětí a změny v obchodní politice. 
+            Nečekané události, jako je změna měnové politiky nebo geopolitické konflikty, mohou způsobit dramatické výkyvy cen aktiv a zvýšenou volatilitu na trhu.<br></br>
+            Pro investory je klíčové umět efektivně řídit tržní riziko. 
+            To může zahrnovat použití různých strategií, jako je hedging, diversifikace portfolia a technická analýza. 
+            Sledují aktuální události a reagují na ně rychle, aby maximalizovali své zisky nebo minimalizovali ztráty.<br></br>
+            Celkově je schopnost řídit a reagovat na tržní riziko klíčovým prvkem úspěchu pro každého investora na burze. 
+            Bez ohledu na to, zda se jedná o krátkodobé spekulativní obchodování nebo dlouhodobé investování, porozumění tržnímu riziku a schopnost správně ho řídit jsou základními kameny úspěšného investování.
             </div>
             <p>Some text..</p>
             <p>
@@ -139,35 +109,62 @@ export default function MainPage() {
             </p>
           </div>
         </div>
-        <div className="rightcolumn">
+
+
+        <div className="leftcolumnClanky">
           <div className="card">
-            <h2>Účel stránky</h2>
-            <div className="fakeimg">
-              Cílem této vzdělávací stránky zaměřené na obchodování a
-              investování je poskytnout stručné a komplexní informace, rady a
-              nástroje jak pro začátečníky, tak pokročilé obchodníky. Cílem je
-              pomoci jim porozumět finančním trhům, ovládnout základy
-              obchodování a efektivně spravovat svá portfolia.
+            <h2>Kreditní riziko</h2>
+            <div id="border">
+              <h5>Vydání titulku, 25. dubna, 2024</h5>
+              <div className="fakeimg">
+              Toto riziko se týká možnosti nedodržení dluhových závazků emitentů dluhopisů nebo jiných úvěrových instrumentů. 
+              Pro investory představuje kreditní riziko potenciální ztrátu hodnoty jejich investic.<br></br>
+              Existují různé faktory, které mohou přispět k výskytu kreditního rizika. 
+              Mezi ně patří hospodářský stav emitenta, jeho platební schopnost, úroveň zadluženosti a celková kvalita úvěrového dlužníka. 
+              Nečekané události, jako je hospodářský propad nebo změny v politice, mohou mít významný dopad na schopnost emitenta splácet své dluhy.<br></br>
+              Pro investory je důležité řádně zhodnotit kreditní riziko před investováním do dluhopisů nebo jiných dluhových instrumentů. 
+              To může zahrnovat analýzu finančních ukazatelů emitenta, sledování jeho dluhového profilu a porozumění makroekonomickým trendům, které by mohly ovlivnit jeho schopnost splácet dluhy.<br></br>
+              K řízení kreditního rizika mohou investoři využívat různé strategie. 
+              Jednou z možností je diverzifikace portfolia, tj. rozložení investic do různých emitentů s různými úrovněmi kreditního rizika. 
+              Další strategií může být použití dluhopisů s vyšší kvalitou ratingu, které mají nižší pravděpodobnost nedodržení dluhových závazků.<br></br>
+              Celkově je důležité, aby investoři byli obezřetní při řízení kreditního rizika a pečlivě zvažovali svá investiční rozhodnutí.
+              </div>
             </div>
+            <p>Some text..</p>
             <p>
-              Some text about me in culpa qui officia deserunt mollit anim..
+              Sunt in culpa qui officia deserunt mollit anim id est laborum
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco.
             </p>
           </div>
           <div className="card">
-            <h3>Popular Post</h3>
-            <div className="fakeimg">
-              <p>Image</p>
+            <h2>Likviditní riziko</h2>
+            <div id="border">
+              <h5>Vydání titulku, 25. dubna, 2024</h5>
+              <div className="fakeimg">
+              Samotné riziko spojené s likviditou může být pro investory problematické, zejména pokud se snaží prodat své investice nebo uzavřít pozice za aktuální cenu, ale není na trhu dostatek kupců. 
+              Čím menší je likvidita určitého aktiva, tím větší je toto riziko.<br></br>
+              Investoři by měli být obezřetní a umět řídit likviditní riziko. 
+              Existuje několik strategií, které mohou investoři použít k minimalizaci tohoto rizika. 
+              Jednou z nich je diverzifikace portfolia, což znamená investování do široké škály aktiv s různou úrovní likvidity. 
+              Tím se snižuje expozice v případě, že jedno konkrétní aktivum se stane málo likvidním.<br></br>
+              Další možností je využití ochranných nástrojů, jako jsou opce a futures. 
+              Tyto deriváty umožňují investorům zajistit své pozice a chránit se tak před nepředvídatelnými výkyvy na trhu. 
+              Tím se snižuje riziko ztráty v důsledku likviditních problémů.<br></br>
+              Je také důležité, aby investoři sledovali likviditu trhu a reagovali na změny v likviditě svých investic. 
+              To může zahrnovat rychlou reakci na změny na trhu nebo snahu najít alternativní způsoby likvidace pozic v případě potřeby.<br></br>
+              Celkově je schopnost řídit a minimalizovat likviditní riziko klíčová pro úspěch každého investora. 
+              Porozumění tomuto typu rizika a používání vhodných strategií a nástrojů může pomoci investorům maximalizovat jejich zisky a minimalizovat ztráty v nejistém prostředí investování.
+              </div>
             </div>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-          </div>
-          <div className="card">
-            <h3>Follow Me</h3>
             <p>Some text..</p>
+            <p>
+              Sunt in culpa qui officia deserunt mollit anim id est laborum
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco.
+            </p>
           </div>
         </div>
       </div>
