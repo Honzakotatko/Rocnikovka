@@ -87,36 +87,9 @@ export default function MainPage() {
       <div className="row">
         <div className="leftcolumn">
           <div className="card">
-            <h2>Obchodování na burze</h2>
-            <h5>Vydání titulku, 28. dubna, 2024</h5>
-            <div className="fakeimg">
-              Obchodování na burze představuje proces nakupování a prodeje
-              finančních nástrojů jako jsou akcie, dluhopisy a komodity. Hlavním
-              účelem je dosáhnout zisku z rozdílu mezi cenou nákupu a prodeje
-              aktiv. Důležité aspekty zahrnují analýzu trhu a aktiv, řízení
-              rizika, diverzifikaci portfolia a psychologii obchodování. Analýza
-              trhu může být technická nebo fundamentální a poskytuje klíčové
-              informace o budoucím vývoji cen. Řízení rizika zahrnuje používání
-              strategií jako jsou stop-loss příkazy a diverzifikace portfolia s
-              cílem minimalizovat možné ztráty. Psychologie obchodování také
-              hraje důležitou roli, protože emoce mohou ovlivnit rozhodovací
-              proces. Je podstatné zachovat klid a disciplinu i v situacích, kdy
-              trh reaguje nečekaně. Obchodování na burze je dynamický proces
-              vyžadující neustálou pozornost a schopnost přizpůsobit se změnám
-              na trhu.
-            </div>
-            <p>Some text..</p>
-            <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
-            </p>
-          </div>
-          <div className="card">
             <h2>Investování</h2>
             <div id="border">
-              <h5>Vydání titulku, 28. dubna, 2024</h5>
+              <h5>Vydání titulku, 24. dubna, 2024</h5>
               <div className="fakeimg">
                 Investování je proces alokace finančních prostředků do různých aktiv s cílem dosáhnout budoucího růstu a zisku. 
                 Je to strategický způsob, jak zhodnocovat peníze, a může zahrnovat nákup akcií, dluhopisů, nemovitostí, komodit nebo jiných aktiv. 
@@ -126,39 +99,19 @@ export default function MainPage() {
                 sledování fundamentálních a technických faktorů a dlouhodobý investiční horizont.
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Investování je strategický způsob alokace finančních prostředků za účelem dosažení budoucího růstu a zisku, vyžadující trpělivost, sledování trhu a schopnost tolerovat riziko.
             </p>
           </div>
         </div>
         <div className="rightcolumn">
           <div className="card">
-            <h2>Účel stránky</h2>
+            <h2>Investování s námi</h2>
             <div className="fakeimg">
-              Cílem této vzdělávací stránky zaměřené na obchodování a
-              investování je poskytnout stručné a komplexní informace, rady a
-              nástroje jak pro začátečníky, tak pokročilé obchodníky. Cílem je
-              pomoci jim porozumět finančním trhům, ovládnout základy
-              obchodování a efektivně spravovat svá portfolia.
-            </div>
-            <p>
-              Some text about me in culpa qui officia deserunt mollit anim..
-            </p>
-          </div>
-          <div className="card">
-            <h3>Popular Post</h3>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-            <div className="fakeimg">
-              <p>Image</p>
+            Na naší webové stránce v sekci Investování se můžete dočíst o mnoha užitečných informacích, ať už jste začátečník nebo pokročilý investor. 
+            Od diverzifikace portfolia až po různé strategie, nabízíme širokou škálu témat. 
+            Pokud máte jakékoli dotazy ohledně této sekce, neváhejte nám napsat do sekce "Dotazy".
             </div>
           </div>
         </div>

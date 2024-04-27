@@ -104,12 +104,9 @@ export default function MainPage() {
             Je důležité si uvědomit, že cesta k finanční nezávislosti není jednoduchá a vyžaduje čas a úsilí. 
             Nicméně, pokud budete mít pevný závazek a budete pravidelně investovat a spořit, můžete postupně dosáhnout svého cíle a zažít svobodu a autonomii ve svém životě.
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Cesta k finanční nezávislosti zahrnuje stanovení cílů, efektivní spoření a investování pro generování pasivního příjmu, snižování životních nákladů a disciplinovaný finanční plán, který vyžaduje čas a úsilí, ale vede k životní svobodě a autonomii.
             </p>
           </div>
         </div>
@@ -123,9 +120,6 @@ export default function MainPage() {
             Investování by mělo být v souladu s vašimi dlouhodobými finančními cíli a životními prioritami.
             Nakonec je cílem investování dosáhnout finanční stability a jistoty, ať už je váš cíl jakýkoliv.
             </div>
-            <p>
-              Some text about me in culpa qui officia deserunt mollit anim..
-            </p>
           </div>
         </div>
 
@@ -152,12 +146,9 @@ export default function MainPage() {
               Investoři, kteří věnují pozornost svému důchodovému plánování, mají větší šanci dosáhnout svých finančních cílů a užít si bezstarostný důchod.
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+              Důchodové plánování je proces stanovení cílů, hodnocení finančních prostředků a vytvoření strategie investování, který zajistí dostatečný příjem v důchodu a finanční stabilitu po celý život.
             </p>
           </div>
         </div>

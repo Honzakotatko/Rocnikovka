@@ -100,12 +100,9 @@ export default function MainPage() {
             Celkově je schopnost řídit a reagovat na tržní riziko klíčovým prvkem úspěchu pro každého investora na burze. 
             Bez ohledu na to, zda se jedná o krátkodobé spekulativní obchodování nebo dlouhodobé investování, porozumění tržnímu riziku a schopnost správně ho řídit jsou základními kameny úspěšného investování.
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Schopnost efektivně řídit tržní riziko je klíčovým prvkem úspěchu pro investory na burze, který zahrnuje použití strategií jako hedging, diversifikace portfolia a technická analýza.
             </p>
           </div>
         </div>
@@ -130,12 +127,9 @@ export default function MainPage() {
               Celkově je důležité, aby investoři byli obezřetní při řízení kreditního rizika a pečlivě zvažovali svá investiční rozhodnutí.
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Pro investory je důležité řádně zhodnotit kreditní riziko před investováním do dluhopisů nebo jiných dluhových instrumentů a používat strategie jako diverzifikace portfolia a výběr dluhopisů s vyšší kvalitou ratingu k jeho řízení.
             </p>
           </div>
           <div className="card">
@@ -158,12 +152,9 @@ export default function MainPage() {
               Porozumění tomuto typu rizika a používání vhodných strategií a nástrojů může pomoci investorům maximalizovat jejich zisky a minimalizovat ztráty v nejistém prostředí investování.
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Investoři by měli aktivně řídit likviditní riziko prostřednictvím diverzifikace portfolia, využití ochranných nástrojů jako jsou opce a futures a sledování likvidity trhu.
             </p>
           </div>
         </div>

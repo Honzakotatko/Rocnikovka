@@ -101,12 +101,9 @@ export default function MainPage() {
             Důležité je si uvědomit, že diversifikace portfolia nemusí eliminovat veškeré riziko, ale může pomoci snížit jeho dopad na celkové portfolio. 
             Je důležité pečlivě vyvážit různé faktory, jako jsou výnosnost, likvidita a riziko, při tvorbě diverzifikovaného portfolia, aby se dosáhlo optimální rovnováhy mezi růstem a ochranou kapitálu.
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Diverzifikace portfolia je klíčovým principem pro snižování rizika a dosažení stability a růstu investic tím, že se rozloží do různých typů aktiv a trhů, což minimalizuje závislost na jednom zdroji příjmů a snižuje dopad neúspěchu jednotlivých investic.
             </p>
           </div>
         </div>
@@ -119,9 +116,6 @@ export default function MainPage() {
             Správné řízení portfolia vyžaduje pravidelné zhodnocování a přizpůsobení se změnám na trhu a osobním cílům. 
             Je důležité mít jasno v tom, jaké jsou vaše investiční cíle a toleranci k riziku, a na základě toho upravit své portfolio.
             </div>
-            <p>
-              Some text about me in culpa qui officia deserunt mollit anim..
-            </p>
           </div>
         </div>
 
@@ -148,12 +142,9 @@ export default function MainPage() {
               Investoři by měli sledovat makroekonomické trendy, politické události a další faktory, které mohou ovlivnit výkonnost jednotlivých regionů.
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+              Geografická diverzifikace portfolia umožňuje investorům minimalizovat riziko spojené s regionálními ekonomickými a politickými událostmi a využít potenciálního růstu v různých tržních prostředích.
             </p>
           </div>
         </div>

@@ -104,12 +104,9 @@ export default function MainPage() {
             Mít dlouhodobý investiční horizont a dodržovat svůj investiční plán může být klíčem k dosažení dlouhodobého úspěchu.<br></br>
             Sledování tržních trendů je nezbytnou součástí investování a investoři, kteří tomuto procesu věnují dostatečnou pozornost, mohou dosáhnout lepších výsledků a minimalizovat rizika spojená s investováním na finančních trzích.
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Sledování tržních trendů zahrnuje udržování aktuálních informací, analýzu dat a statistik, správu rizik a zachování klidu a realismu při investování, což je klíčem k dosažení úspěchu na finančních trzích.
             </p>
           </div>
         </div>
@@ -129,12 +126,9 @@ export default function MainPage() {
               Celkově lze říci, že analýza výkonnosti portfolia je klíčovým prvkem úspěšného investování. 
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+              Analýza výkonnosti portfolia je klíčovým prvkem úspěšného investování, umožňuje investoři sledovat vývoj svých investic, porozumět tržním trendům a optimalizovat své strategie pro dosažení co nejlepších výsledků.
             </p>
           </div>
         </div>

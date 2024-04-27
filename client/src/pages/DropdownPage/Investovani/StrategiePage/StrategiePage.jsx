@@ -104,12 +104,9 @@ export default function MainPage() {
               Důležitou součástí správné alokace aktiv je pravidelné přehodnocování a rebalancování portfolia. 
               Investiční cíle a okolnosti se mohou měnit časem, a proto je důležité pravidelně zjišťovat, zda je vaše alokace stále v souladu s vašimi cíli a tolerancí k riziku, a provádět potřebné úpravy.
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+              Správná alokace aktiv je klíčová pro optimalizaci rizika a výnosů investičního portfolia, což zahrnuje rozložení investic mezi různé třídy aktiv v souladu s finančními cíli a tolerancí k riziku investora.
             </p>
           </div>
         </div>
@@ -135,12 +132,9 @@ export default function MainPage() {
               Investoři by měli zvážit případné poplatky spojené s prodejem a nákupem aktiv, stejně jako daňové důsledky přesunu kapitálu mezi různými investicemi.
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Rebalancování portfolia je klíčové pro udržení požadovaného poměru mezi aktivy, minimalizaci rizika a dosažení dlouhodobých investičních cílů investora.
             </p>
           </div>
         </div>

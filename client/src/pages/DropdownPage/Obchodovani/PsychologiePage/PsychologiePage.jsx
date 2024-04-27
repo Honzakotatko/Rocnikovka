@@ -101,12 +101,9 @@ export default function MainPage() {
             Emoce, jako je strach nebo chamtivost, mohou vést k iracionálním rozhodnutím a nepřiměřenému přijímání rizika. 
             Obchodníci by měli být schopni rozpoznat a ovládat tyto emoce, aby mohli dělat racionální a uvážená obchodní rozhodnutí.
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Pro obchodníky na finančních trzích je klíčové porozumění a efektivní řízení psychologie riskování, zahrnující pochopení vlastní tolerance k riziku, správné řízení rizika v rámci obchodních strategií a schopnost přijímat ztráty a udržovat emoční stabilitu.
             </p>
           </div>
         </div>
@@ -135,12 +132,9 @@ export default function MainPage() {
               Sebedůvěra umožňuje obchodníkům důvěřovat svým schopnostem, udržovat chladnou hlavu během obchodování a efektivně řídit svá rozhodnutí.
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+              Důvěra v sebe sama umožňuje obchodníkům lépe reagovat na změny trhu, udržovat chladnou hlavu a efektivně řídit svá rozhodnutí, což je klíčovým faktorem pro jejich úspěch na finančních trzích.
             </p>
           </div>
         </div>

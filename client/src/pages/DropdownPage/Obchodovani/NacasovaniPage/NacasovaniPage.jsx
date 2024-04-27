@@ -103,12 +103,9 @@ export default function MainPage() {
             Celkově je správné načasování vstupu a výstupu klíčovým prvkem úspěchu pro každého obchodníka na burze. 
             Porozumění tržním signálům a indikátorům, flexibilita v reakci na změny trhu a schopnost efektivně řídit rizika jsou nezbytné pro dosažení dlouhodobého úspěchu v obchodování.
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Správné načasování vstupu a výstupu obchodů je klíčové pro dosažení úspěchu na burze a zahrnuje analýzu tržních signálů, trendů a indikátorů pro maximalizaci zisku a minimalizaci ztrát.
             </p>
           </div>
         </div>
@@ -121,9 +118,6 @@ export default function MainPage() {
             Naopak Take Profit uzavírá pozici, když cena dosáhne určené úrovně, a tím zajišťuje zisk. 
             Tyto nástroje jsou klíčové pro ochranu investic a dosažení úspěchu v obchodování.
             </div>
-            <p>
-              Some text about me in culpa qui officia deserunt mollit anim..
-            </p>
           </div>
         </div>
 
@@ -144,12 +138,9 @@ export default function MainPage() {
               Tato schopnost vyžaduje rychlou analýzu, přípravu a plánování, a důkladnou znalost tržních podmínek. 
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+              Schopnost rychle reagovat na makroekonomické události a zprávy společností je klíčová pro úspěšné obchodování na finančních trzích a vyžaduje předem definované strategie, dostupnost relevantních informací a schopnost rychlé analýzy.
             </p>
           </div>
           <div className="card">
@@ -169,12 +160,9 @@ export default function MainPage() {
               Celkově je sezónní obchodní načasování zajímavou strategií pro obchodníky na finančních trzích, kteří jsou schopni identifikovat a využít sezónní trendy k dosažení zisku.
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+              Sezónní obchodní načasování využívá opakujících se vzorů a trendů v různých částech roku k identifikaci obchodních příležitostí a optimalizaci investičních strategií, vyžaduje pečlivou analýzu historických dat a vhodné obchodní strategie pro dosažení zisku.
             </p>
           </div>
         </div>

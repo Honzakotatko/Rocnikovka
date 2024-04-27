@@ -88,7 +88,7 @@ export default function MainPage() {
         <div className="leftcolumn">
           <div className="card">
             <h2>Obchodování na burze</h2>
-            <h5>Vydání titulku, 28. dubna, 2024</h5>
+            <h5>Vydání titulku, 24. dubna, 2024</h5>
             <div className="fakeimg">
               Obchodování na burze představuje proces nakupování a prodeje
               finančních nástrojů jako jsou akcie, dluhopisy a komodity. Hlavním
@@ -105,60 +105,19 @@ export default function MainPage() {
               vyžadující neustálou pozornost a schopnost přizpůsobit se změnám
               na trhu.
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
-            </p>
-          </div>
-          <div className="card">
-            <h2>Investování</h2>
-            <div id="border">
-              <h5>Vydání titulku, 28. dubna, 2024</h5>
-              <div className="fakeimg">
-                Investování je proces alokace finančních prostředků do různých aktiv s cílem dosáhnout budoucího růstu a zisku. 
-                Je to strategický způsob, jak zhodnocovat peníze, a může zahrnovat nákup akcií, dluhopisů, nemovitostí, komodit nebo jiných aktiv. 
-                Cílem investování je dosáhnout výnosů nad inflací a dosáhnout finančních cílů, jako je plánování na důchod, 
-                financování vzdělání nebo dosažení finanční nezávislosti. Investování vyžaduje trpělivost, 
-                pravidelné sledování trhu a schopnost tolerovat riziko spojené s investicemi. Důležitými aspekty investování jsou také diversifikace portfolia, 
-                sledování fundamentálních a technických faktorů a dlouhodobý investiční horizont.
-              </div>
-            </div>
-            <p>Some text..</p>
-            <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Obchodování na burze je komplexní proces, zahrnující nakupování a prodej finančních nástrojů s cílem dosáhnout zisku, přičemž klíčové faktory zahrnují analýzu trhu, řízení rizika a psychologii obchodování.
             </p>
           </div>
         </div>
         <div className="rightcolumn">
           <div className="card">
-            <h2>Účel stránky</h2>
+            <h2>Obchodování na burze s námi </h2>
             <div className="fakeimg">
-              Cílem této vzdělávací stránky zaměřené na obchodování a
-              investování je poskytnout stručné a komplexní informace, rady a
-              nástroje jak pro začátečníky, tak pokročilé obchodníky. Cílem je
-              pomoci jim porozumět finančním trhům, ovládnout základy
-              obchodování a efektivně spravovat svá portfolia.
-            </div>
-            <p>
-              Some text about me in culpa qui officia deserunt mollit anim..
-            </p>
-          </div>
-          <div className="card">
-            <h3>Popular Post</h3>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-            <div className="fakeimg">
-              <p>Image</p>
+              Na naší webové stránce v sekci Obchodování na burze se můžete dočíst o mnoha užitečných informacích, ať už jste začátečník nebo pokročilý obchodník. 
+              Od diverzifikace portfolia až po různé strategie, nabízíme širokou škálu témat. 
+              Pokud máte jakékoli dotazy ohledně této sekce, neváhejte nám napsat do sekce "Dotazy".
             </div>
           </div>
         </div>

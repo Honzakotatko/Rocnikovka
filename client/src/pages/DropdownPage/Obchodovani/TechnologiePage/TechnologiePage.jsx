@@ -109,12 +109,9 @@ export default function MainPage() {
             Vybrat si správného brokera je důležitým krokem pro každého investora. 
             Pečlivě zvažte všechny tyto faktory a vytvořte informované rozhodnutí, které se nejlépe hodí k vašim individuálním potřebám a cílům.
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Správný výběr brokera je klíčový pro každého investora a zahrnuje zvážení poplatků, dostupnosti trhů, uživatelského rozhraní, spolehlivosti, bezpečnosti a regulace, vzdělávacích nástrojů a mobilních aplikací.
             </p>
           </div>
         </div>
@@ -127,9 +124,6 @@ export default function MainPage() {
             Brokeři také mohou poskytovat svým zákazníkům investiční poradenství, vzdělávací materiály a analytické nástroje. <br></br>
             Další povinností brokeři je dodržování regulace a ochrana obchodních operací.
             </div>
-            <p>
-              Some text about me in culpa qui officia deserunt mollit anim..
-            </p>
           </div>
         </div>
 
@@ -153,12 +147,9 @@ export default function MainPage() {
               kteří hledají efektivní způsob, jak optimalizovat své obchodní strategie a zlepšit výkonnost svých portfolií.
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Automatizované obchodování využívá počítačové algoritmy pro provádění obchodů na finančních trzích s rychlostí, eliminací emocionálního vlivu a možností obchodování nepřetržitě, přesto však nese riziko nežádoucích obchodů a ztrát, vyžaduje pečlivě navržené strategie a řízení rizik.
             </p>
           </div>
           <div className="card">
@@ -181,12 +172,9 @@ export default function MainPage() {
               Tyto technologie mají potenciál zvýšit efektivitu a produktivitu obchodníků a přinést novou úroveň inovace do světa finančních trhů.
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+             Umělá inteligence a strojové učení přinášejí do obchodování na burze možnost analyzovat obrovské množství dat, identifikovat vzory a trendy a minimalizovat rizika, což může výrazně zlepšit výkonnost obchodníků a přinést novou úroveň inovace na finanční trhy.
             </p>
           </div>
         </div>

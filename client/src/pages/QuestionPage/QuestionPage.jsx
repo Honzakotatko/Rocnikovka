@@ -5,9 +5,34 @@ import {
   faInstagram,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { createClanek} from "../../models/clanky"
+import { useState, useEffect } from "react";
+
 
 export default function MainPage() {
+  const [formData, setFormData] = useState();
+  const [info, setInfo] = useState();
+  const navigate = useNavigate();
+
+  const postForm = async () => {
+    const cat = await createClanek(formData);
+    if (cat.status === 201) {
+      redirectToSuccessPage(clanek.payload._id);
+    } else {
+      setInfo(clanek.msg);
+    }
+  }
+  
+  const handleChange = (e) => {
+    setFormData({...formData, [e.target.name]: e.target.value});
+  }
+  
+  const handlePost = (e) => {
+    e.preventDefault();
+    postForm();
+  }
+
   return (
     <div className="container">
       <div id="header_img">
@@ -85,55 +110,13 @@ export default function MainPage() {
       </div>
 
       <div className="row">
-        <div className="leftcolumn">
-          <div className="card">
-            <h2>Obchodování na burze</h2>
-            <h5>Vydání titulku, 28. dubna, 2024</h5>
-            <div className="fakeimg">
-              Obchodování na burze představuje proces nakupování a prodeje
-              finančních nástrojů jako jsou akcie, dluhopisy a komodity. Hlavním
-              účelem je dosáhnout zisku z rozdílu mezi cenou nákupu a prodeje
-              aktiv. Důležité aspekty zahrnují analýzu trhu a aktiv, řízení
-              rizika, diverzifikaci portfolia a psychologii obchodování. Analýza
-              trhu může být technická nebo fundamentální a poskytuje klíčové
-              informace o budoucím vývoji cen. Řízení rizika zahrnuje používání
-              strategií jako jsou stop-loss příkazy a diverzifikace portfolia s
-              cílem minimalizovat možné ztráty. Psychologie obchodování také
-              hraje důležitou roli, protože emoce mohou ovlivnit rozhodovací
-              proces. Je podstatné zachovat klid a disciplinu i v situacích, kdy
-              trh reaguje nečekaně. Obchodování na burze je dynamický proces
-              vyžadující neustálou pozornost a schopnost přizpůsobit se změnám
-              na trhu.
-            </div>
-            <p>Some text..</p>
-            <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
-            </p>
-          </div>
-          <div className="card">
-            <h2>Investování</h2>
-            <div id="border">
-              <h5>Vydání titulku, 28. dubna, 2024</h5>
-              <div className="fakeimg">
-                Investování je proces alokace finančních prostředků do různých aktiv s cílem dosáhnout budoucího růstu a zisku. 
-                Je to strategický způsob, jak zhodnocovat peníze, a může zahrnovat nákup akcií, dluhopisů, nemovitostí, komodit nebo jiných aktiv. 
-                Cílem investování je dosáhnout výnosů nad inflací a dosáhnout finančních cílů, jako je plánování na důchod, 
-                financování vzdělání nebo dosažení finanční nezávislosti. Investování vyžaduje trpělivost, 
-                pravidelné sledování trhu a schopnost tolerovat riziko spojené s investicemi. Důležitými aspekty investování jsou také diversifikace portfolia, 
-                sledování fundamentálních a technických faktorů a dlouhodobý investiční horizont.
-              </div>
-            </div>
-            <p>Some text..</p>
-            <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
-            </p>
-          </div>
+        <div className="leftcolumnDotazy">
+        <form>
+        <input type="text" name="clanek" required placeholder="Sem napište dotaz a do textu vložte svůj e-mail" onChange={e => handleChange(e)}/>
+        <button onClick={handlePost}>
+          Odeslat
+        </button>
+      </form>
         </div>
         <div className="rightcolumn">
           <div className="card">
@@ -160,10 +143,6 @@ export default function MainPage() {
             <div className="fakeimg">
               <p>Image</p>
             </div>
-          </div>
-          <div className="card">
-            <h3>Follow Me</h3>
-            <p>Some text..</p>
           </div>
         </div>
       </div>

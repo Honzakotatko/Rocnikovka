@@ -101,12 +101,9 @@ export default function MainPage() {
             S vhodným porozuměním a správným využitím technických nástrojů mohou obchodníci identifikovat obchodní příležitosti s vysokým potenciálem zisku a minimalizovat riziko ztráty. 
             Je důležité, aby každý obchodník pečlivě studoval technickou analýzu a experimentoval s různými nástroji a strategiemi, aby našel ten, který nejlépe vyhovuje jeho obchodnímu stylu a cílům.
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Technická analýza je klíčovým nástrojem pro obchodníky na burze, umožňujícím identifikaci trendů a vzorů v cenách aktiv a optimalizaci obchodních strategií.
             </p>
           </div>
         </div>
@@ -121,23 +118,20 @@ export default function MainPage() {
               Tato forma analýzy se zaměřuje na studium základních faktorů ovlivňujících hodnotu investičního aktiva, jako jsou hospodářské ukazatele, výkazy zisku a ztráty společností, makroekonomické trendy a konkurenční prostředí.
               Hlavním cílem fundamentální analýzy je určit skutečnou hodnotu aktiva a identifikovat příležitosti k investování na základě jeho fundamentálních charakteristik. 
               Obchodníci využívají různé metody a nástroje fundamentální analýzy, včetně analýzy finančních výkazů, analýzy makroekonomických indikátorů a hodnocení konkurenčního prostředí.
-              Analýza finančních výkazů je jedním z klíčových prvků fundamentální analýzy. 
+              Analýza finančních výkazů je jedním z klíčových prvků fundamentální analýzy. <br></br>
               Obchodníci studují výkazy zisku a ztráty společností, aby posoudili finanční zdraví a výkonnost podniku. 
               To zahrnuje analýzu tržeb, nákladů, ziskovosti a dalších klíčových ukazatelů, které mohou poskytnout informace o budoucím vývoji společnosti.
-              Makroekonomická analýza je dalším důležitým prvkem fundamentální analýzy. 
+              Makroekonomická analýza je dalším důležitým prvkem fundamentální analýzy. <br></br>
               Obchodníci sledují makroekonomické trendy, jako je růst HDP, inflace, nezaměstnanost a měnová politika, aby identifikovali širší trendy a předpovídali vývoj trhu a ekonomiky.
               Hodnocení konkurenčního prostředí je dalším klíčovým aspektem fundamentální analýzy. 
-              Obchodníci studují konkurenční pozici společnosti, její strategii, inovace a další faktory, které mohou ovlivnit její budoucí výkonnost a hodnotu na trhu.
+              Obchodníci studují konkurenční pozici společnosti, její strategii, inovace a další faktory, které mohou ovlivnit její budoucí výkonnost a hodnotu na trhu.<br></br>
               Pro obchodníky je důležité porozumět fundamentální analýze a umět ji efektivně využívat k identifikaci investičních příležitostí a rozhodování o svých obchodních pozicích. 
               Tato forma analýzy poskytuje obchodníkům širokou škálu nástrojů a technik pro objevení hodnotných investičních příležitostí a minimalizaci rizika ztráty.
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+              Fundamentální analýza se zaměřuje na studium základních faktorů ovlivňujících hodnotu investičního aktiva a poskytuje obchodníkům nástroje pro identifikaci investičních příležitostí a minimalizaci rizika ztráty pomocí analýzy hospodářských ukazatelů, výkazů zisku a ztráty společností, makroekonomických trendů a hodnocení konkurenčního prostředí.
             </p>
           </div>
         </div>

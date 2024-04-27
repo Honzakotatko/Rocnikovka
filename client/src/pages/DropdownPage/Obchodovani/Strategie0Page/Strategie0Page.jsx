@@ -100,12 +100,9 @@ export default function MainPage() {
             Obchodníci často také využívají technologie jako jsou elektronické obchodní algoritmy (algotrading) nebo automatizované obchodní systémy (ATS), které umožňují automatizované obchodování na základě předdefinovaných pravidel.<br></br>
             Celkově je day trading rychlým a vzrušujícím způsobem, jak dosáhnout zisku na finančních trzích. Nicméně, vyžaduje trpělivost, disciplínu a dobrou znalost trhu.
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Day trading je rychlý a vzrušující způsob obchodování na finančních trzích, který vyžaduje rychlé rozhodování, disciplínu a dobrou znalost trhu.
             </p>
           </div>
         </div>
@@ -119,9 +116,6 @@ export default function MainPage() {
             Důležité je být otevřený pro experimentování, učení se z vlastních chyb a průběžné optimalizace obchodního přístupu.
             Nakonec, úspěšný obchodník je ten, kdo dokáže nejlépe využít své strategie a přizpůsobit se měnícímu se trhu, a tak dosáhnout dlouhodobého úspěchu.
             </div>
-            <p>
-              Some text about me in culpa qui officia deserunt mollit anim..
-            </p>
           </div>
         </div>
 
@@ -145,12 +139,9 @@ export default function MainPage() {
               Celkově je swing obchodování atraktivní strategií pro obchodníky, kteří preferují střednědobý časový horizont a jsou schopni sledovat a využívat krátkodobé cenové pohyby aktiv.
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+              Swing obchodování je strategie, která využívá krátkodobé cenové pohyby aktiv s střednědobým časovým horizontem a klade důraz na identifikaci trendů a vzorů prostřednictvím technické analýzy.
             </p>
           </div>
         </div>

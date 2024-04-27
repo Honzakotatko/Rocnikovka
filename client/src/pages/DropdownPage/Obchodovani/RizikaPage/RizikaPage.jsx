@@ -100,12 +100,9 @@ export default function MainPage() {
             Celkově je schopnost řídit a reagovat na tržní riziko klíčovým prvkem úspěchu pro každého obchodníka na burze. 
             Bez ohledu na to, zda se jedná o krátkodobé spekulativní obchodování nebo dlouhodobé investování, porozumění tržnímu riziku a schopnost správně ho řídit jsou základními kameny úspěšného obchodování.
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Pro obchodníky na burze je řízení tržního rizika klíčovým prvkem úspěchu, který zahrnuje použití strategií jako hedging, diversifikaci portfolia a technickou analýzu k minimalizaci ztrát a maximalizaci zisků v reakci na externí události a výkyvy na trhu.
             </p>
           </div>
         </div>
@@ -128,12 +125,9 @@ export default function MainPage() {
               Díky tomu mohou dosáhnout optimální rovnováhy mezi růstem a ochranou kapitálu, což je klíčem k dlouhodobému úspěchu na burze.
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+              Rozmanitost aktiv je klíčem k úspěšnému obchodování na burze, umožňuje maximalizaci zisků a minimalizaci rizika prostřednictvím investic do různých typů aktiv, což přispívá k vyvážení portfolia a dosažení optimální rovnováhy mezi růstem a ochranou kapitálu.
             </p>
           </div>
           <div className="card">
@@ -155,12 +149,9 @@ export default function MainPage() {
               Porozumění tomuto typu rizika a používání vhodných strategií a nástrojů může pomoci obchodníkům maximalizovat jejich zisky a minimalizovat ztráty v nejistém prostředí burzovního obchodování.
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Pro úspěšné obchodníky je klíčové řídit a minimalizovat likviditní riziko pomocí strategií, jako je diverzifikace portfolia a použití ochranných nástrojů, aby maximalizovali zisky a minimalizovali ztráty při obchodování na burze.
             </p>
           </div>
         </div>

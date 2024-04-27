@@ -101,12 +101,9 @@ export default function MainPage() {
             Důležité je si uvědomit, že diversifikace portfolia nemusí eliminovat veškeré riziko, ale může pomoci snížit jeho dopad na celkové portfolio. 
             Je důležité pečlivě vyvážit různé faktory, jako jsou výnosnost, likvidita a riziko, při tvorbě diverzifikovaného portfolia, aby se dosáhlo optimální rovnováhy mezi růstem a ochranou kapitálu.
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+            Diverzifikace portfolia je klíčovým prvkem pro snížení rizika a dosažení dlouhodobé stability v obchodování na burze, který spočívá ve spreadování investic do různých typů aktiv a trhů s cílem minimalizovat závislost na jediném zdroji příjmů a snížit dopad neúspěšných obchodů.
             </p>
           </div>
         </div>
@@ -119,9 +116,6 @@ export default function MainPage() {
             Správné řízení portfolia vyžaduje pravidelné zhodnocování a přizpůsobení se změnám na trhu a osobním cílům. 
             Je důležité mít jasno v tom, jaké jsou vaše investiční cíle a toleranci k riziku, a na základě toho upravit své portfolio.
             </div>
-            <p>
-              Some text about me in culpa qui officia deserunt mollit anim..
-            </p>
           </div>
         </div>
 
@@ -142,12 +136,9 @@ export default function MainPage() {
               Díky tomu mohou dosáhnout optimální rovnováhy mezi růstem a ochranou kapitálu, což je klíčem k dlouhodobému úspěchu na burze.
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+              Rozmanitost aktiv je klíčovým prvkem pro úspěšné obchodování na burze, umožňujícím obchodníkům maximalizovat ziskový potenciál a minimalizovat riziko prostřednictvím investic do různých typů aktiv, jako jsou akcie, dluhopisy, komodity a forex.
             </p>
           </div>
           <div className="card">
@@ -169,12 +160,9 @@ export default function MainPage() {
               ale trvalejší růst, zatímco krátkodobá diverzifikace může nabídnout možnost rychlejších zisků, ale s vyšším rizikem. Je důležité, aby každý obchodník pečlivě zvážil své strategie a cíle před rozhodnutím, jak se diverzifikovat.
               </div>
             </div>
-            <p>Some text..</p>
+            <p>Shrnutí</p>
             <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
+              Dlouhodobá diverzifikace je zaměřena na vytvoření stabilního portfolia s dlouhodobým růstem, zatímco krátkodobá diverzifikace se soustředí na rychlejší zisky a využívání krátkodobých obchodních příležitostí, přičemž vhodnost každého přístupu závisí na individuální strategii a cílech obchodníka.
             </p>
           </div>
         </div>
