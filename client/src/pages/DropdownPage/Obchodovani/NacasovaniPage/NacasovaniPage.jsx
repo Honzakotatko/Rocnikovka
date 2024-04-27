@@ -86,10 +86,10 @@ export default function MainPage() {
 
       <div className="row">
         <div className="leftcolumnVysvetlivky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Správné načasování vstupu a výstupu</h2>
             <h5>Vydání titulku, 24. dubna, 2024</h5>
-            <div className="fakeimg">
+            <div className="text">
             Tento nástroj se zaměřuje na identifikaci optimálních časových okamžiků pro otevření a uzavření obchodů, což může mít značný vliv na výsledný zisk či ztrátu.<br></br>
             Správné načasování vstupu do obchodu je založeno na analýze tržních signálů, trendů a indikátorů. 
             Obchodníci studují různé aspekty trhu, jako jsou cenové úrovně, objem obchodů, dynamika cenových změn a sentiment trhu, aby identifikovali vhodné časové okamžiky pro vstup do obchodu. 
@@ -110,9 +110,9 @@ export default function MainPage() {
           </div>
         </div>
         <div className="rightcolumn">
-          <div className="cardVysvetlivky">
+          <div className="backgorund_textVysvetlivky">
             <h2>Stop Loss a Take Profit</h2>
-            <div className="fakeimg">
+            <div className="text">
             Stop Loss a Take Profit jsou základními nástroji pro řízení rizika a zajištění zisků při obchodování na finančních trzích. <br></br>
             Stop Loss umožňuje obchodníkům automaticky uzavřít pozici, pokud cena aktiv dosáhne určeného bodu, což pomáhá minimalizovat ztráty. 
             Naopak Take Profit uzavírá pozici, když cena dosáhne určené úrovně, a tím zajišťuje zisk. 
@@ -122,11 +122,11 @@ export default function MainPage() {
         </div>
 
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Reakce na aktuální události</h2>
             <div id="border">
               <h5>Vydání titulku, 24. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Makroekonomické zprávy, výsledky společností, geopolitické události a centrální bankovní rozhodnutí mohou výrazně ovlivnit pohyb cen aktiv a tržní situaci.<br></br>
               Reakce na aktuální události vyžaduje rychlou analýzu informací a následné adaptování obchodní strategie. 
               Obchodníci musí být schopni rychle identifikovat obchodní příležitosti a přizpůsobit své pozice v souladu s nově vzniklou situací.
@@ -143,11 +143,11 @@ export default function MainPage() {
               Schopnost rychle reagovat na makroekonomické události a zprávy společností je klíčová pro úspěšné obchodování na finančních trzích a vyžaduje předem definované strategie, dostupnost relevantních informací a schopnost rychlé analýzy.
             </p>
           </div>
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Sezónní obchodní načasování</h2>
             <div id="border">
               <h5>Vydání titulku, 24. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Sezónní obchodní načasování se zaměřuje na identifikaci opakujících se vzorů a trendů v různých částech roku, které mohou ovlivnit pohyb cen aktiv.<br></br>
               Jedním z příkladů sezónních trendů může být zvýšená spotřebitelská poptávka po určitých produktech během prázdninových období nebo během specifických sezón v průběhu roku. 
               Například poptávka po energetických nápojích může vzrůst během letních měsíců, zatímco poptávka po sezónních oblečení může vzrůst před začátkem každé sezóny.<br></br>

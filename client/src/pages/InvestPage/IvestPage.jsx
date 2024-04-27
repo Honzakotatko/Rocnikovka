@@ -86,11 +86,11 @@ export default function MainPage() {
 
       <div className="row">
         <div className="leftcolumn">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Investování</h2>
             <div id="border">
               <h5>Vydání titulku, 24. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
                 Investování je proces alokace finančních prostředků do různých aktiv s cílem dosáhnout budoucího růstu a zisku. 
                 Je to strategický způsob, jak zhodnocovat peníze, a může zahrnovat nákup akcií, dluhopisů, nemovitostí, komodit nebo jiných aktiv. 
                 Cílem investování je dosáhnout výnosů nad inflací a dosáhnout finančních cílů, jako je plánování na důchod, 
@@ -106,9 +106,9 @@ export default function MainPage() {
           </div>
         </div>
         <div className="rightcolumn">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Investování s námi</h2>
-            <div className="fakeimg">
+            <div className="text">
             Na naší webové stránce v sekci Investování se můžete dočíst o mnoha užitečných informacích, ať už jste začátečník nebo pokročilý investor. 
             Od diverzifikace portfolia až po různé strategie, nabízíme širokou škálu témat. 
             Pokud máte jakékoli dotazy ohledně této sekce, neváhejte nám napsat do sekce "Dotazy".

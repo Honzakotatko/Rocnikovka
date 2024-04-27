@@ -86,10 +86,10 @@ export default function MainPage() {
 
       <div className="row">
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Tržní rizika</h2>
             <h5>Vydání titulku, 25. dubna, 2024</h5>
-            <div className="fakeimg">
+            <div className="text">
             Pro investory na burze je tržní riziko jedním z nejdůležitějších aspektů, které ovlivňují jejich rozhodování a výsledky. 
             Tržní riziko představuje možnost, že hodnota jejich investic klesne v důsledku výkyvů na trhu.<br></br>
             Hlavními faktory tržního rizika jsou externí události, jako jsou makroekonomické trendy, geopolitická napětí a změny v obchodní politice. 
@@ -109,11 +109,11 @@ export default function MainPage() {
 
 
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Kreditní riziko</h2>
             <div id="border">
               <h5>Vydání titulku, 25. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Toto riziko se týká možnosti nedodržení dluhových závazků emitentů dluhopisů nebo jiných úvěrových instrumentů. 
               Pro investory představuje kreditní riziko potenciální ztrátu hodnoty jejich investic.<br></br>
               Existují různé faktory, které mohou přispět k výskytu kreditního rizika. 
@@ -132,11 +132,11 @@ export default function MainPage() {
             Pro investory je důležité řádně zhodnotit kreditní riziko před investováním do dluhopisů nebo jiných dluhových instrumentů a používat strategie jako diverzifikace portfolia a výběr dluhopisů s vyšší kvalitou ratingu k jeho řízení.
             </p>
           </div>
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Likviditní riziko</h2>
             <div id="border">
               <h5>Vydání titulku, 25. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Samotné riziko spojené s likviditou může být pro investory problematické, zejména pokud se snaží prodat své investice nebo uzavřít pozice za aktuální cenu, ale není na trhu dostatek kupců. 
               Čím menší je likvidita určitého aktiva, tím větší je toto riziko.<br></br>
               Investoři by měli být obezřetní a umět řídit likviditní riziko. 

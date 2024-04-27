@@ -86,10 +86,10 @@ export default function MainPage() {
 
       <div className="row">
         <div className="leftcolumnVysvetlivky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Denní obchodování</h2>
             <h5>Vydání titulku, 25. dubna, 2024</h5>
-            <div className="fakeimg">
+            <div className="text">
             Day trading vyžaduje rychlé rozhodování a schopnost rychle reagovat na krátkodobé pohyby cen. 
             Obchodníci využívají technickou analýzu a sledování cenových grafů s krátkými časovými horizonty, jako jsou například 1minutové nebo 5minutové intervaly, k identifikaci krátkodobých obchodních příležitostí.<br></br>
             Strategie day tradingu zahrnují například breakout strategie, kdy obchodník vstupuje do obchodu, když cena aktivu prorazí určitou cenovou úroveň, nebo reversal strategie, kdy obchodník vstupuje do obchodu po obratu trendu. 
@@ -107,9 +107,9 @@ export default function MainPage() {
           </div>
         </div>
         <div className="rightcolumn">
-          <div className="cardVysvetlivky">
+          <div className="backgorund_textVysvetlivky">
             <h2>Výběr strategie</h2>
-            <div className="fakeimg">
+            <div className="text">
             Každý obchodník potřebuje svou vlastní strategii, která mu nejlépe vyhovuje. 
             Někomu může přinášet úspěch swing obchodování, kdy se zaměřuje na využití krátkodobých cenových pohybů, zatímco jiný se cítí lépe s denním obchodováním, kdy se snaží vstoupit do obchodu a uzavřít ho během jednoho obchodního dne. 
             Klíčem k úspěchu je nejen vybrat si správnou strategii, ale také ji neustále zdokonalovat a přizpůsobovat se měnícím se tržním podmínkám. 
@@ -120,11 +120,11 @@ export default function MainPage() {
         </div>
 
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Swing obchodování</h2>
             <div id="bordner">
               <h5>Vydání titulku, 25. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Swing obchodování je obchodní strategie, která se zaměřuje na využití krátkodobých cenových pohybů aktiv jako jsou akcie, forex nebo komodity. 
               Tato strategie je vhodná pro obchodníky, kteří preferují střednědobý časový horizont a jsou ochotni držet své pozice několik dní až několik týdnů.<br></br>
               Cílem swing obchodování je vstoupit do obchodu ve správný čas, kdy je aktivum blízko k dosažení svého maximálního nebo minimálního bodu, a získat zisk z následného cenového pohybu. 

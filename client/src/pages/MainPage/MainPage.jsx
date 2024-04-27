@@ -86,10 +86,10 @@ export default function MainPage() {
 
       <div className="row">
         <div className="leftcolumn">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Obchodování na burze</h2>
             <h5>Vydání titulku, 24. dubna, 2024</h5>
-            <div className="fakeimg">
+            <div className="text">
             Obchodování na burze představuje proces nakupování a prodeje finančních nástrojů jako jsou akcie, dluhopisy a komodity. 
             Hlavnímúčelem je dosáhnout zisku z rozdílu mezi cenou nákupu a prodeje aktiv. <br></br>
             Důležité aspekty zahrnují analýzu trhu a aktiv, řízení rizika, diverzifikaci portfolia a psychologii obchodování. 
@@ -104,11 +104,11 @@ export default function MainPage() {
             Obchodování na burze je komplexní proces, zahrnující nakupování a prodej finančních nástrojů s cílem dosáhnout zisku, přičemž klíčové faktory zahrnují analýzu trhu, řízení rizika a psychologii obchodování.
             </p>
           </div>
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Investování</h2>
             <div id="border">
               <h5>Vydání titulku, 24. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Investování je proces alokace finančních prostředků do různých aktiv s cílem dosáhnout budoucího růstu a zisku. 
               Je to strategický způsob, jak zhodnocovat peníze, a může zahrnovat nákup akcií, dluhopisů, nemovitostí, komodit nebo jiných aktiv. <br></br>
               Cílem investování je dosáhnout výnosů nad inflací a dosáhnout finančních cílů, jako je plánování na důchod, financování vzdělání nebo dosažení finanční nezávislosti. 
@@ -123,9 +123,9 @@ export default function MainPage() {
           </div>
         </div>
         <div className="rightcolumn">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Účel stránky</h2>
-            <div className="fakeimg">
+            <div className="text">
               Cílem této vzdělávací stránky zaměřené na obchodování na burze a
               investování je poskytnout stručné a komplexní informace, rady a
               nástroje jak pro začátečníky, tak pokročilé obchodníky. Cílem je
@@ -133,9 +133,9 @@ export default function MainPage() {
               obchodování a efektivně spravovat svá portfolia.
             </div>
           </div>
-          <div className="card">
+          <div className="backgorund_text">
             <h3>E-mail</h3>
-            <div className="fakeimgemail">
+            <div className="textemail">
               <div>hkotatko@email.cz</div>
             </div>
           </div>

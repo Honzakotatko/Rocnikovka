@@ -87,10 +87,10 @@ export default function MainPage() {
 
       <div className="row">
         <div className="leftcolumnVysvetlivky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Diverzifikace portfolia</h2>
             <h5>Vydání titulku, 24. dubna, 2024</h5>
-            <div className="fakeimg">
+            <div className="text">
             Diverzifikace portfolia v obchodování na burze je základním prvkem pro řízení rizika a dosažení dlouhodobé stability a udržitelného růstu. 
             Tento koncept spočívá ve spreadování investic do různých typů aktiv a trhů, aby se minimalizovala závislost na jediném zdroji příjmů a snížilo se riziko v případě neúspěchu jednotlivých obchodů.<br></br>
             Hlavním cílem diverzifikace portfolia je snížit vystavení obchodníka jednotlivým tržním nebo aktivním rizikům. 
@@ -108,9 +108,9 @@ export default function MainPage() {
           </div>
         </div>
         <div className="rightcolumn">
-          <div className="cardVysvetlivky">
+          <div className="backgorund_textVysvetlivky">
             <h2>Portfolio</h2>
-            <div className="fakeimg">
+            <div className="text">
             Může zahrnovat různá aktiva, jako jsou akcie, dluhopisy, nemovitosti nebo komodity. 
             Diverzifikace portfolia je klíčovým prvkem, umožňuje rozložit riziko a minimalizovat dopady negativních událostí. 
             Správné řízení portfolia vyžaduje pravidelné zhodnocování a přizpůsobení se změnám na trhu a osobním cílům. 
@@ -120,11 +120,11 @@ export default function MainPage() {
         </div>
 
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Rozmanitost aktiv</h2>
             <div id="border">
               <h5>Vydání titulku, 24. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Rozmanitost aktiv je klíčovým prvkem pro úspěšné obchodování na burze. 
               Pro obchodníky je důležité rozložit své investice do různých typů aktiv, aby maximalizovali svůj potenciál na zisk a minimalizovali riziko.<br></br>
               Různé typy aktiv zahrnují akcie, dluhopisy, komodity, forex a další. Každý typ aktiva má své vlastní charakteristiky a reaguje odlišně na tržní události. 
@@ -141,11 +141,11 @@ export default function MainPage() {
               Rozmanitost aktiv je klíčovým prvkem pro úspěšné obchodování na burze, umožňujícím obchodníkům maximalizovat ziskový potenciál a minimalizovat riziko prostřednictvím investic do různých typů aktiv, jako jsou akcie, dluhopisy, komodity a forex.
             </p>
           </div>
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Dlouhodobá vs. krátkodobá diverzifikace</h2>
             <div id="border">
               <h5>Vydání titulku, 24. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
 
               Dlouhodobá versus krátkodobá diverzifikace: Jak se liší a jaká je vhodná pro obchodníky?<br></br>
               Obchodníci se často potýkají s otázkou, jak nejlépe rozložit své investice, aby maximalizovali svůj potenciální zisk a minimalizovali riziko. 

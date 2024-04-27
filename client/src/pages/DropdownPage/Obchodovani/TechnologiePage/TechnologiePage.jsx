@@ -86,10 +86,10 @@ export default function MainPage() {
 
       <div className="row">
         <div className="leftcolumnVysvetlivky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Správný výběr Brokera</h2>
             <h5>Vydání titulku, 24. dubna, 2024</h5>
-            <div className="fakeimg">
+            <div className="text">
             Správný výběr brokera je klíčovým rozhodnutím pro každého investora. 
             Broker hraje důležitou roli ve vašem investičním procesu a může ovlivnit vaše investiční výnosy a zkušenosti. 
             Při výběru brokera je důležité zvážit několik klíčových faktorů, jako jsou poplatky, dostupnost trhů a nástrojů, 
@@ -116,9 +116,9 @@ export default function MainPage() {
           </div>
         </div>
         <div className="rightcolumn">
-          <div className="cardVysvetlivky">
+          <div className="backgorund_textVysvetlivky">
             <h2>Broker</h2>
-            <div className="fakeimg">
+            <div className="text">
             Broker je individuální nebo institucionální osoba, která působí jako prostředník mezi investory a finančními trhy. <br></br>
             Jejich hlavním účelem je usnadnit nákup a prodej různých druhů finančních aktiv, akcií, dluhopisů, komodit a měn, a vybírat za tento proces platbu nebo provizi. 
             Brokeři také mohou poskytovat svým zákazníkům investiční poradenství, vzdělávací materiály a analytické nástroje. <br></br>
@@ -128,11 +128,11 @@ export default function MainPage() {
         </div>
 
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Automatizované obchodování</h2>
             <div id="border">
               <h5>Vydání titulku, 24. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Automatizované obchodování je proces, při kterém počítačové algoritmy provádějí obchodní operace na finančních trzích s minimálním nebo žádným zásahem lidského faktoru. 
               Tato metoda obchodování využívá sofistikované algoritmické strategie, které jsou navrženy tak, 
               aby analyzovaly tržní podmínky a prováděly obchody podle předem stanovených pravidel. 
@@ -152,11 +152,11 @@ export default function MainPage() {
             Automatizované obchodování využívá počítačové algoritmy pro provádění obchodů na finančních trzích s rychlostí, eliminací emocionálního vlivu a možností obchodování nepřetržitě, přesto však nese riziko nežádoucích obchodů a ztrát, vyžaduje pečlivě navržené strategie a řízení rizik.
             </p>
           </div>
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Umělá inteligence a strojové učení</h2>
             <div id="border">
               <h5>Vydání titulku, 24. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Umělá inteligence (AI) a strojové učení nabízejí revoluční přístup k obchodování na burze. 
               Tyto technologie umožňují vytváření sofistikovaných algoritmů, které mohou analyzovat obrovské množství dat a provádět rychlé a přesné obchodní rozhodnutí.<br></br> 
               Díky umělé inteligenci a strojovému učení mohou obchodníci vytvářet modely, které identifikují vzory v tržních datech a predikují budoucí trendy. 

@@ -86,10 +86,10 @@ export default function MainPage() {
 
       <div className="row">
         <div className="leftcolumnVysvetlivky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Finanční nezávislost</h2>
             <h5>Vydání titulku, 25. dubna, 2024</h5>
-            <div className="fakeimg">
+            <div className="text">
             Finanční nezávislost je stav, ve kterém máte dostatečný pasivní příjem, který pokrývá vaše životní náklady, aniž byste museli aktivně pracovat. 
             Je to cíl mnoha investorů, kteří touží po svobodě a autonomii ve svém životě.<br></br>
             Cesta k finanční nezávislosti začíná stanovením jasných cílů a plánů pro jejich dosažení. 
@@ -111,9 +111,9 @@ export default function MainPage() {
           </div>
         </div>
         <div className="rightcolumn">
-          <div className="cardVysvetlivky">
+          <div className="backgorund_textVysvetlivky">
             <h2>Cíl</h2>
-            <div className="fakeimg">
+            <div className="text">
             Určení cíle je zásadním prvkem pro každého investora. Každý má jiné ambice a motivace, někdo touží po rychlém zbohatnutí, jiný si chce jen přivydělat a další se chtějí investováním živit.
             Nastavení cílů je zcela individuální a záleží pouze na samotném investorovi. 
             Důležité je pečlivě promyslet své cíle a zvážit jejich realističnost a dosažitelnost.
@@ -124,11 +124,11 @@ export default function MainPage() {
         </div>
 
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Důchodové plánování</h2>
             <div id="bordner">
               <h5>Vydání titulku, 25. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Důchodové plánování je klíčovým aspektem finančního života každého investora. 
               Jedná se o proces stanovení finančních cílů a vytváření strategie, která zajistí dostatečný příjem v důchodu. 
               Bez ohledu na to, jak daleko je váš důchodový věk, je nikdy příliš brzy začít plánovat svou finanční budoucnost.<br></br>

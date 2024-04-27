@@ -87,10 +87,10 @@ export default function MainPage() {
 
       <div className="row">
         <div className="leftcolumnVysvetlivky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Diverzifikace portfolia</h2>
             <h5>Vydání titulku, 25. dubna, 2024</h5>
-            <div className="fakeimg">
+            <div className="text">
             Diverzifikace portfolia je základním principem, kterým se řídí mnozí investoři s cílem snížit riziko a dosáhnout dlouhodobé stability a udržitelného růstu. 
             Tento koncept spočívá v rozložení investic do různých typů aktiv a trhů, což pomáhá minimalizovat závislost na jediném zdroji příjmů a snižuje riziko v případě neúspěchu jednotlivých obchodů.<br></br>
             Hlavním cílem diverzifikace portfolia je snížit vystavení investora rizikům spojeným s jednotlivými tržními nebo aktivními událostmi. 
@@ -108,9 +108,9 @@ export default function MainPage() {
           </div>
         </div>
         <div className="rightcolumn">
-          <div className="cardVysvetlivky">
+          <div className="backgorund_textVysvetlivky">
             <h2>Portfolio</h2>
-            <div className="fakeimg">
+            <div className="text">
             Portfolio je soubor investic, který vlastní investor. Může zahrnovat různá aktiva, jako jsou akcie, dluhopisy, nemovitosti nebo komodity. 
             Diverzifikace portfolia je klíčovým prvkem, umožňuje rozložit riziko a minimalizovat dopady negativních událostí. 
             Správné řízení portfolia vyžaduje pravidelné zhodnocování a přizpůsobení se změnám na trhu a osobním cílům. 
@@ -120,11 +120,11 @@ export default function MainPage() {
         </div>
 
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Geografická diverzifikace</h2>
             <div id="border">
               <h5>Vydání titulku, 25. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Geografická diverzifikace je klíčovým prvkem pro investory, kteří chtějí minimalizovat riziko spojené s regionálními ekonomickými výkyvy a politickými událostmi a dosáhnout stabilního růstu svého portfolia. 
               Tato strategie zahrnuje rozložení investic do různých regionů a zemí po celém světě, což umožňuje investorům využít potenciálního růstu v různých tržních prostředích a vyrovnat se s nejistotou na jednotlivých trzích.<br></br>
               Existuje několik důvodů, proč by měli investoři zvážit geografickou diverzifikaci svého portfolia. 

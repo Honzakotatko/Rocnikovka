@@ -86,10 +86,10 @@ export default function MainPage() {
 
       <div className="row">
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Technická analýza</h2>
             <h5>Vydání titulku, 24. dubna, 2024</h5>
-            <div className="fakeimg">
+            <div className="text">
             Technická analýza představuje důležitý nástroj pro obchodníky na burze, kteří hledají možnosti optimalizace svých investičních strategií.
             Tato forma analýzy se zaměřuje na studium historických cenových a objemových dat s cílem předvídat budoucí pohyby cenových úrovní na trhu.<br></br>
             Pro obchodníky poskytuje technická analýza různé nástroje a techniky pro identifikaci trendů a vzorů v cenách aktiv. 
@@ -110,11 +110,11 @@ export default function MainPage() {
 
 
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Fundamentální analýza</h2>
             <div id="border">
               <h5>Vydání titulku, 24. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Tato forma analýzy se zaměřuje na studium základních faktorů ovlivňujících hodnotu investičního aktiva, jako jsou hospodářské ukazatele, výkazy zisku a ztráty společností, makroekonomické trendy a konkurenční prostředí.
               Hlavním cílem fundamentální analýzy je určit skutečnou hodnotu aktiva a identifikovat příležitosti k investování na základě jeho fundamentálních charakteristik. 
               Obchodníci využívají různé metody a nástroje fundamentální analýzy, včetně analýzy finančních výkazů, analýzy makroekonomických indikátorů a hodnocení konkurenčního prostředí.

@@ -27,6 +27,7 @@ body {
   align-items: center;
   justify-content: space-between;
   user-select: none;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 600px) {
@@ -99,18 +100,18 @@ body {
 }
 
 /* Fake image */
-.fakeimg {
+.text {
   font-size: 16px; /* Výchozí velikost textu */
   padding: 20px; /* Přidáme polštáře kolem textu pro lepší čitelnost */
   box-sizing: border-box; /* Zahrnout padding do celkové šířky elementu */
   background-color: #AAB5FF; /* Zachovat barvu pozadí */
-  min-height: 200px; /* Minimální výška .fakeimg, aby se zvětšovala podle obsahu */
+  min-height: 200px; /* Minimální výška .text, aby se zvětšovala podle obsahu */
   display: flex; /* Použijeme flexbox pro dynamickou výšku */
   align-items: center; /* Zarovnání obsahu vertikálně */
   border-radius: 10px; /* Zaoblení rohů */
 }
 
-.fakeimgemail {
+.textemail {
   font-size: 16px; /* Výchozí velikost textu */
   padding: 20px; /* Přidáme polštáře kolem textu pro lepší čitelnost */
   box-sizing: border-box; /* Zahrnout padding do celkové šířky elementu */
@@ -122,13 +123,13 @@ body {
 
 /* Pro menší obrazovky snižte velikost textu */
 @media screen and (max-width: 600px) {
-  .fakeimg, .fakeimgemail {
+  .text, .textemail {
     font-size: 14px; /* Snížení velikosti textu na menších obrazovkách */
   }
 }
 
-/* Add a card effect for articles */
-.card {
+/* Add a backgorund_text effect for articles */
+.backgorund_text {
   background-color: #74777A;
   color: white;
   padding: 20px;
@@ -137,7 +138,7 @@ body {
 }
 
 
-.cardVysvetlivky {
+.backgorund_textVysvetlivky {
   background-color: #74777A;
   color: white;
   padding: 35px;
@@ -158,6 +159,7 @@ body {
   background: #74777A; /* Světle šedá barva */
   margin-top: 20px;
   border: none;
+  border-radius: 10px 10px 0 0;
 }
 
 .footer h2 {
@@ -231,14 +233,29 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  transition: 200ms;
+}
+
+.navLeftCont .navChild:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.navRightCont .navChild {
+  border-radius: 0 10px 10px 0;
 }
 
 .navChild:hover {
   background-color: #AAB5FF; /* Světle zelená barva */
+  transition: 200ms;
 }
 
 .navChild:hover a {
   color: #000000; /* Černá barva */
+  transition: 200ms;
+}
+
+.navChild a {
+  transition: 200ms;
 }
 
 .navChild .dropdown {
@@ -247,6 +264,7 @@ body {
   top: 4rem;
   width: 100%;
   left: 0;
+  border-radius: 10px;
 }
 
 .navChild:hover .dropdown {
@@ -264,9 +282,39 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: 200ms;
+}
+
+.navChild .dropdown a:last-child .dropdownChild {
+  border-radius: 0 0 10px 10px;
 }
 
 .navChild .dropdown .dropdownChild:hover {
   background-color: #AAB5FF; /* Světle zelená barva */
   color: #000000; /* Černá barva */
+  transition: 200ms;
+}
+
+textarea {
+  background-color: #74777A;
+  margin-top: 21px;
+  border-radius: 10px 10px 10px 10px;
+  resize: none;
+  height: 600px;
+  width: 100%;
+  color: white;
+  font-size: 17px;
+}
+#button{
+  float:right;
+  background-color: #74777A;
+  height: 50px;
+  width: 100px;
+}
+#button:hover {
+  background-color: #AAB5FF; /* Světle zelená barva */
+  transition: 200ms;
+}
+::placeholder {
+  color: white;
 }

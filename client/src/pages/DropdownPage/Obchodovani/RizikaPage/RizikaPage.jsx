@@ -86,10 +86,10 @@ export default function MainPage() {
 
       <div className="row">
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Tržní rizika</h2>
             <h5>Vydání titulku, 24. dubna, 2024</h5>
-            <div className="fakeimg">
+            <div className="text">
             Pro obchodníky na burze je tržní riziko jedním z nejdůležitějších faktorů, který ovlivňuje jejich každodenní činnost. 
             Toto riziko představuje možnost, že hodnota jejich investic klesne v důsledku výkyvů na trhu.<br></br>
             Hlavními faktory tržního rizika jsou externí události, jako jsou makroekonomické trendy, geopolitická napětí a změny v obchodní politice. 
@@ -109,11 +109,11 @@ export default function MainPage() {
 
 
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Systémové riziko</h2>
             <div id="border">
               <h5>Vydání titulku, 24. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Rozmanitost aktiv je klíčovým prvkem pro úspěšné obchodování na burze. 
               Pro obchodníky je důležité rozložit své investice do různých typů aktiv, aby maximalizovali svůj potenciál na zisk a minimalizovali riziko.<br></br>
               Různé typy aktiv zahrnují akcie, dluhopisy, komodity, forex a další. Každý typ aktiva má své vlastní charakteristiky a reaguje odlišně na tržní události. 
@@ -130,11 +130,11 @@ export default function MainPage() {
               Rozmanitost aktiv je klíčem k úspěšnému obchodování na burze, umožňuje maximalizaci zisků a minimalizaci rizika prostřednictvím investic do různých typů aktiv, což přispívá k vyvážení portfolia a dosažení optimální rovnováhy mezi růstem a ochranou kapitálu.
             </p>
           </div>
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Likviditní riziko</h2>
             <div id="border">
               <h5>Vydání titulku, 24. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Toto riziko souvisí s obtížemi při prodeji investičního nástroje nebo likvidaci pozice za aktuální cenu v důsledku nedostatku kupců na trhu. 
               Čím menší je likvidita určitého aktiva, tím větší je toto riziko.<br></br>
               Pro obchodníky je klíčové porozumět likviditnímu riziku a umět ho řídit. 

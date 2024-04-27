@@ -86,10 +86,10 @@ export default function MainPage() {
 
       <div className="row">
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Sledování tržních trendů</h2>
             <h5>Vydání titulku, 25. dubna, 2024</h5>
-            <div className="fakeimg">
+            <div className="text">
             Prvním krokem k úspěšnému sledování tržních trendů je udržování aktuálních informací o tom, co se děje na trhu. 
             To zahrnuje sledování novinek, ekonomických zpráv, vývoje cen jednotlivých aktiv a dalších faktorů, které mohou ovlivnit tržní prostředí. 
             Díky tomu budete lépe informováni o možných změnách a budete schopni lépe reagovat na tržní události.<br></br>
@@ -113,11 +113,11 @@ export default function MainPage() {
 
 
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Analýza výkonnosti portfolia</h2>
             <div id="border">
               <h5>Vydání titulku, 25. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Tato analýza poskytuje komplexní pohled na vývoj jejich portfolia a umožňuje jim porozumět, jak se jejich investiční strategie osvědčuje v různých tržních podmínkách.<br></br>
               Klíčové metriky, které se používají k analýze výkonnosti portfolia, zahrnují zhodnocení návratnosti, měření rizika, diversifikaci, průměrnou výnosnost a benchmarking. 
               Tyto metriky umožňují investořům objektivně posoudit výkonnost svého portfolia a identifikovat oblasti, ve kterých je třeba provést úpravy.<br></br>

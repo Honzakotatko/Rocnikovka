@@ -5,30 +5,28 @@ import {
   faInstagram,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { createClanek} from "../../models/clanky"
 import { useState, useEffect } from "react";
 
 
 export default function MainPage() {
-  const [formData, setFormData] = useState();
+  const [inputVal, setInputVal] = useState();
   const [info, setInfo] = useState();
-  const navigate = useNavigate();
 
   const postForm = async () => {
-    const cat = await createClanek(formData);
-    if (cat.status === 201) {
-      redirectToSuccessPage(clanek.payload._id);
-    } else {
-      setInfo(clanek.msg);
-    }
+    const clanek = await createClanek({
+      clanek: inputVal
+    });
+    if (clanek.status != 201) return setInfo(clanek.msg)
+    setInputVal('')
   }
   
   const handleChange = (e) => {
-    setFormData({...formData, [e.target.name]: e.target.value});
+    setInputVal(e.target.value);
   }
   
-  const handlePost = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     postForm();
   }
@@ -112,36 +110,19 @@ export default function MainPage() {
       <div className="row">
         <div className="leftcolumnDotazy">
         <form>
-        <input type="text" name="clanek" required placeholder="Sem napište dotaz a do textu vložte svůj e-mail" onChange={e => handleChange(e)}/>
-        <button onClick={handlePost}>
+        <textarea type="text" name="clanek" value={inputVal} required placeholder="Sem můžete napsat, co potřebujete, a nezapomeňte sem připojit e-mail nebo telefonní číslo" onChange={e => handleChange(e)}/>
+        <button id= "button"onClick={handleSubmit}>
           Odeslat
         </button>
       </form>
         </div>
         <div className="rightcolumn">
-          <div className="card">
-            <h2>Účel stránky</h2>
-            <div className="fakeimg">
-              Cílem této vzdělávací stránky zaměřené na obchodování a
-              investování je poskytnout stručné a komplexní informace, rady a
-              nástroje jak pro začátečníky, tak pokročilé obchodníky. Cílem je
-              pomoci jim porozumět finančním trhům, ovládnout základy
-              obchodování a efektivně spravovat svá portfolia.
-            </div>
-            <p>
-              Some text about me in culpa qui officia deserunt mollit anim..
-            </p>
-          </div>
-          <div className="card">
-            <h3>Popular Post</h3>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-            <div className="fakeimg">
-              <p>Image</p>
-            </div>
-            <div className="fakeimg">
-              <p>Image</p>
+          <div className="backgorund_text">
+            <h2>Co nám napsat</h2>
+            <div className="text">
+            Do textového pole nám můžete napsat dotaz, na který byste se chtěli zeptat a nenalezli jste zde odpověď, nebo co byste na webové stránce přidali, co bychom mohli změnit. 
+            Také můžete sdílet své pocity z této stránky.
+            K vašemu dotazu připojte prosím kontakt, jako je e-mail nebo telefonní číslo, abychom vás mohli případně kontaktovat.
             </div>
           </div>
         </div>

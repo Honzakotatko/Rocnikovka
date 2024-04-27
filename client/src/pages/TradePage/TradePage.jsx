@@ -86,10 +86,10 @@ export default function MainPage() {
 
       <div className="row">
         <div className="leftcolumn">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Obchodování na burze</h2>
             <h5>Vydání titulku, 24. dubna, 2024</h5>
-            <div className="fakeimg">
+            <div className="text">
               Obchodování na burze představuje proces nakupování a prodeje
               finančních nástrojů jako jsou akcie, dluhopisy a komodity. Hlavním
               účelem je dosáhnout zisku z rozdílu mezi cenou nákupu a prodeje
@@ -112,9 +112,9 @@ export default function MainPage() {
           </div>
         </div>
         <div className="rightcolumn">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Obchodování na burze s námi </h2>
-            <div className="fakeimg">
+            <div className="text">
               Na naší webové stránce v sekci Obchodování na burze se můžete dočíst o mnoha užitečných informacích, ať už jste začátečník nebo pokročilý obchodník. 
               Od diverzifikace portfolia až po různé strategie, nabízíme širokou škálu témat. 
               Pokud máte jakékoli dotazy ohledně této sekce, neváhejte nám napsat do sekce "Dotazy".

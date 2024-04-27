@@ -86,10 +86,10 @@ export default function MainPage() {
 
       <div className="row">
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Psychologie riskování</h2>
             <h5>Vydání titulku, 24. dubna, 2024</h5>
-            <div className="fakeimg">
+            <div className="text">
             Pro obchodníky na finančních trzích je psychologie riskování zásadním prvkem při rozhodování o obchodních pozicích. Zvládnutí psychologických aspektů spojených s přijímáním a řízením rizika může mít zásadní vliv na obchodní výkon a dlouhodobý úspěch.<br></br>
             Jedním z klíčových aspektů psychologie riskování je porozumění vlastnímu vnímání rizika. Každý obchodník má individuální tolerance k riziku, což ovlivňuje jeho rozhodování při obchodování. 
             Někteří obchodníci jsou ochotni přijmout vyšší riziko za vyšší potenciální odměnu, zatímco jiní preferují nižší riziko a menší potenciální zisky. Důležité je, aby každý obchodník pochopil své vlastní hranice rizika a jednal v souladu s nimi.<br></br>
@@ -110,11 +110,11 @@ export default function MainPage() {
 
 
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Rozvoj sebedůvěry</h2>
             <div id="border">
               <h5>Vydání titulku, 24. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Důvěra v sebe sama umožňuje obchodníkům důvěřovat svým schopnostem, udržovat chladnou hlavu během obchodování a efektivně řídit svá rozhodnutí.<br></br>
               Jedním z klíčových aspektů rozvoje sebedůvěry je sebekontrola. 
               Obchodník musí být schopen ovládat své emoce a udržovat chladnou hlavu i v době stresu a tlaku. 

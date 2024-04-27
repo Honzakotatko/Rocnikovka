@@ -86,10 +86,10 @@ export default function MainPage() {
 
       <div className="row">
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Alokace aktiv</h2>
             <h5>Vydání titulku, 25. dubna, 2024</h5>
-            <div className="fakeimg">
+            <div className="text">
               Alokace aktiv je strategie, kterou mnozí investoři používají k efektivnímu řízení svých investičních portfolií. 
               Tato strategie spočívá ve správném rozdělení investic mezi různé typy aktiv, jako jsou akcie, dluhopisy, nemovitosti a hotovostní rezervy, s cílem dosáhnout optimální rovnováhy mezi rizikem a výnosem.<br></br>
               Jedním z hlavních důvodů, proč je důležité mít správnou alokaci aktiv, je snížení rizika. 
@@ -113,11 +113,11 @@ export default function MainPage() {
 
 
         <div className="leftcolumnClanky">
-          <div className="card">
+          <div className="backgorund_text">
             <h2>Rebalancování portfolia</h2>
             <div id="border">
               <h5>Vydání titulku, 25. dubna, 2024</h5>
-              <div className="fakeimg">
+              <div className="text">
               Tento proces zahrnuje pravidelné přehodnocování a přizpůsobování struktury portfolia v souladu s investičními cíli, rizikovou tolerancí a tržními podmínkami.<br></br>
               Jedním z hlavních důvodů pro rebalancování portfolia je udržení požadovaného poměru mezi různými třídami aktiv. 
               V průběhu času mohou změny na trhu způsobit posun ve váhách jednotlivých aktiv v portfoliu. 
