@@ -1,19 +1,18 @@
-var express = require("express");
-var router = express.Router();
+var express = require("express"); // Importování modulu Express
+var router = express.Router(); // Vytvoření instance směrovače
 
-const clanekController = require("../controllers/clanek");
+const clanekController = require("../controllers/clanek"); // Importování ovladače pro manipulaci s články
 
-router.get("/", clanekController.getAllClanky);
+// Nastavení různých cest pro manipulaci s články pomocí odpovídajících metod ovladače
 
-//localhost:3000/clanek/5sa4d949qw86d5sa4d6sa
-//req.params.id
+router.get("/", clanekController.getAllClanky); // Cesta pro získání všech článků
 
-router.get("/:id", clanekController.getClanekById);
+router.get("/:id", clanekController.getClanekById); // Cesta pro získání článku podle ID
 
-router.delete("/:id", clanekController.deleteClanek);
+router.delete("/:id", clanekController.deleteClanek); // Cesta pro smazání článku podle ID
 
-router.put("/:id", clanekController.updateClanek);
+router.put("/:id", clanekController.updateClanek); // Cesta pro aktualizaci článku podle ID
 
-router.post("/", clanekController.createClanek);
+router.post("/", clanekController.createClanek); // Cesta pro vytvoření nového článku
 
-module.exports = router;
+module.exports = router; // Export směrovače pro použití v jiných částech aplikace

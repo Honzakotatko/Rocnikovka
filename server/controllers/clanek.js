@@ -64,22 +64,22 @@ exports.updateClanek = async (req, res) => {
   }
 };
 
-exports.createClanek = async (req, res) => {
-  try {
-    const data = new Clanek({
-      clanek: req.body.clanek,
+exports.createClanek = async (req, res) => { // Definice funkce createClanek s parametry req (request) a res (response)
+  try { // Začátek bloku try-catch pro zachycení případných chyb
+    const data = new Clanek({ // Vytvoření nové instance modelu Clanek s daty z requestu
+      clanek: req.body.clanek, // Přiřazení hodnoty článku z requestu
     });
-    const result = await data.save();
-    if (result) {
-      return res.status(201).send({
-        msg: "Článek byl vytvořen",
-        payload: result,
+    const result = await data.save(); // Uložení dat (článku) do databáze a čekání na dokončení operace
+    if (result) { // Pokud je operace úspěšná (result je definováno)
+      return res.status(201).send({ // Odeslání odpovědi s HTTP stavovým kódem 201 (Created) a zprávou o úspěchu
+        msg: "Článek byl vytvořen", // Zpráva o úspěšném vytvoření článku
+        payload: result, // Data vytvořeného článku
       });
     }
-    res.status(500).send({
-      msg: "Článek nebyl vytvořen",
+    res.status(500).send({ // Pokud operace nebyla úspěšná, odeslat odpověď s HTTP stavovým kódem 500 (Internal Server Error)
+      msg: "Článek nebyl vytvořen", // Zpráva o neúspěchu vytvoření článku
     });
-  } catch (error) {
-    res.status(500).send(error);
+  } catch (error) { // Zachycení případné chyby a odeslání odpovídající chybové zprávy
+    res.status(500).send(error); // Odeslání chyby s HTTP stavovým kódem 500 (Internal Server Error)
   }
 };
